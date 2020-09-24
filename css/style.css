@@ -294,14 +294,14 @@ li {
 }
 
 
-}
-
 /* AQUI EMPIEZA LA CUARTA SECCION DEL MAIN  --AQUI EMPIEZA CUARTA SECCION DEL MAIN  */
+
 .section4 {
     width: 100%;
     height: 59rem;
     margin: 2rem 0 2rem;
 }
+
 .containSect4 {
     width: 80%;
     height: 50rem;
@@ -309,6 +309,7 @@ li {
     margin: auto;
     justify-content: center;
 }
+
 .section4 h3 {
     font-size: 6rem;
     color: var(--colorVeramas);
@@ -316,24 +317,29 @@ li {
     width: 100%;
     margin-bottom: 3rem;
 }
+
 .containerVideo h4 {
     font-size: 2.1rem;
     text-align: center;
 }
+
 .containerVideo {
     height: 41.1rem;
     width: 52rem;
     margin-right: 6rem;
 }
+
 .containerVideo1 {
     width: 52rem;
     height: 29rem;
     margin-top: 4rem;
 }
+
 .containerVideo1 iframe {
     width: 100%;
     height: 100%;
 }
+
 .imgSect4 {
     background-image: url('../assets/nutrition.png');
     width: 30rem;
@@ -342,13 +348,16 @@ li {
     background-size: contain;
 }
 
+
 /* AQUI EMPIEZA LA QUINTA SECCION DEL MAIN  --AQUI EMPIEZA QUINTA SECCION DEL MAIN  */
+
 .section5 {
     width: 100%;
     height: 50rem;
     display: flex;
     margin-bottom: 2rem;
 }
+
 .container1Sect5 {
     width: 54.3rem;
     display: flex;
@@ -357,6 +366,7 @@ li {
     background-color: #8f60bd;
     height: 100%;
 }
+
 .logoSect5 {
     background-image: url('../assets/Epigeneticalogobig.png');
     background-position: center;
@@ -366,6 +376,7 @@ li {
     height: 20rem;
     margin-top: 4rem;
 }
+
 .container1Sect5 p {
     width: 38.9rem;
     height: 12rem;
@@ -374,6 +385,7 @@ li {
     text-align: center;
     margin-top: 1.5rem;
 }
+
 .container2Sect5 {
     width: 70%;
     height: 100%;
@@ -382,15 +394,19 @@ li {
     align-items: center;
     overflow: hidden;
 }
+
 .container2Sect5 video {
     height: auto;
 }
 
+
 /* AQUI EMPIEZA LA SEXTA SECCION DEL MAIN  --AQUI EMPIEZA SEXTA SECCION DEL MAIN  */
+
 .section6 {
     width: 100%;
     height: 55rem;
 }
+
 .containSect6 {
     width: 60%;
     height: 50rem;
@@ -401,18 +417,22 @@ li {
     justify-content: center;
     align-items: center;
 }
+
 .containSect6 h1 {
     font-size: 6rem;
     width: 100%;
     text-align: center;
     margin: 4rem auto 4rem;
 }
+
 .containSect6 iframe {
     width: 100%;
     height: 37.0rem;
 }
 
+
 /* AQUI EMPIEZA LA ULTIMA SECCION DEL MAIN  --AQUI EMPIEZA LA ULTIMA SECCION DEL MAIN  */
+
 footer {
     width: 100%;
     height: 18.5rem;
@@ -420,6 +440,7 @@ footer {
     font-size: 1.5rem;
     border-top: 0.5rem solid #999997;
 }
+
 .containFooter {
     width: 85%;
     margin: 3rem auto 0;
@@ -427,15 +448,18 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
+
 .containAnclas a {
     margin-right: 2rem;
     color: #000000;
 }
+
 .containFooter p {
     margin-left: 10rem;
     text-align: justify;
     margin-top: -0.1rem;
 }
+
 footer p {
     margin-top: 4rem;
     font-size: 1.4rem;
