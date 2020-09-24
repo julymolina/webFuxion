@@ -1,0 +1,299 @@
+:root {
+    --colorFontEmpresa: #797979;
+    --colorLinea: #a1a1a1;
+}
+
+.img2Empresa,
+.img3Empresa,
+.img4Empresa,
+.img5Empresa,
+.img6Empresa,
+.img7Empresa {
+    width: 98rem;
+    height: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.img02Empresa,
+.img03Empresa,
+.img04Empresa,
+.img05Empresa,
+.img06Empresa,
+.img07Empresa {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 19.6rem;
+    height: 17rem;
+    margin-right: 5rem;
+}
+
+
+/* PRIMERA SECTION PRIMERA SECTION PRIMERA SECTION PRIMERA SECTION  */
+
+main {
+    width: 95%;
+    margin: auto;
+}
+
+.section1Empresa {
+    width: 80%;
+    height: 48.7rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1Empresa {
+    background-image: url('../assets/la-empresa-imagen1.webp');
+    width: 98rem;
+    height: 40rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img1Empresa p {
+    font-size: 2.3rem;
+    color: white;
+    margin-right: 10rem;
+    text-align: right;
+    font-family: 'Libre Baskerville', serif;
+    letter-spacing: 0.3rem;
+}
+
+
+/* MARCA DE AGUA  MARCA DE AGUA MARCA DE AGUA MARCA DE AGUA  */
+
+.containWatermark1 {
+    width: 98rem;
+    height: 40rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgLeft1 {
+    background-image: url('/assets/arrow-fuxion-delgado1.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 13rem;
+}
+
+.imgRight1 {
+    background-image: url('/assets/arrow-fuxion-delgado-right1.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 18.4rem;
+}
+
+.section2Empresa {
+    height: 20.4rem;
+    width: 70%;
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img01Empresa {
+    background-image: url('/assets/FUXION.webp');
+    width: 11.8rem;
+    height: 3.7rem;
+    margin-right: 5rem;
+}
+
+.paragrafEmpresa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 19.4rem;
+    width: 57.7rem;
+    border-left: 0.3rem solid var(--colorLinea);
+}
+
+
+/* PARRAFOS GENERALES PARRAFOS GENERALES PARRAFOS GENERALES  */
+
+.paragrafEmpresa p {
+    margin-left: 1.5rem;
+    color: var(--colorFontEmpresa);
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* S E C T I O N  2 S E C T I O N  2 S E C T I O N  2  SE COPIARÁ CODIGO PARA LAS DEMAS SECCIONES  */
+
+.sectionEmpresa {
+    width: 80%;
+    height: 44rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2Empresa {
+    background-image: url('../assets/la-empresa-imagen2.webp');
+}
+
+.img02Empresa {
+    background-image: url('../assets/salud-verdadera.webp');
+}
+
+
+/* CODIGO MARCA DE AGUA CODIGO MARCA DE AGUA CODIGO MARCA DE AGUA CODIGO MARCA DE AGUA  */
+
+.containWatermark {
+    width: 98rem;
+    height: 36rem;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgLeft {
+    background-image: url('/assets/arrow-fuxion-delgado.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19.1rem;
+    object-fit: cover;
+}
+
+.imgRight {
+    background-image: url('/assets/arrow-fuxion-delgado-right.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    width: 18.4rem;
+}
+
+
+/* S E C T I O N 3  S E C T I O N 3 S E C T I O N 3  S E C T I O N 3*/
+
+.img3Empresa {
+    background-image: url('../assets/la-empresa-imagen3.webp');
+}
+
+.title03Empresa {
+    font-size: 3.5rem;
+    text-align: right;
+    color: #087DC3;
+    font-weight: bold;
+    width: 19.6rem;
+    height: 15rem;
+    margin: 2.8rem 5rem 0 0;
+    margin-top: 2rem;
+}
+
+
+/* S E C T I O N 4 S E C T I O N 4 S E C T I O N 4 */
+
+.img4Empresa {
+    background-image: url('../assets/la-empresa-imagen4.webp');
+}
+
+.img4Empresa h1 {
+    margin-top: 25.6rem;
+}
+
+.img04Empresa {
+    background-image: url('../assets/imagenX.webp');
+}
+
+
+/* S E C T I O N 5  S E C T I O N 5  S E C T I O N 5 */
+
+.img5Empresa {
+    background-image: url('../assets/la-empresa-imagen5.webp');
+}
+
+.img05Empresa {
+    background-image: url('../assets/red.webp');
+}
+
+
+/* S E C T I O N 6  S E C T I O N 6  S E C T I O N 6 */
+
+.img6Empresa {
+    background-image: url('../assets/la-empresa-imagen6.webp');
+}
+
+.img06Empresa {
+    background-image: url('../assets/mundo.webp');
+}
+
+
+/* S E C T I O N 7  S E C T I O N 7   S E C T I O N 7 */
+
+.img7Empresa {
+    background-image: url('../assets/la-empresa-imagen7.webp');
+}
+
+.img07Empresa {
+    background-image: url('../assets/manos.webp');
+}
+
+
+/* S E C T I O N 8  S E C T I O N 8   S E C T I O N 8 */
+
+.spanFinalEmpresa {
+    width: 80%;
+    height: 20rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pFinalEmpresa {
+    color: #198BD3;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin: -50rem;
+}
+
+.pFinalEmpresa::after {
+    content: '  contact@epigeneticdrink.com';
+    color: #797979;
+}
+
+
+/* POLITICAS DE PRIVACIDAD Y TERMINOS DE USO   POLITICAS DE PRIVACIDAD Y TERMINOS DE USO */
+
+.mainPolitic {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.containPoliticTermins {
+    width: 60.1%;
+    margin: auto;
+}
+
+.containPoliticTermins h1 {
+    font-size: 4rem;
+    color: black;
+    margin: 4.5rem auto 4.5rem;
+}
+
+.containPoliticTermins p {
+    font-size: 1.4rem;
+    color: black;
+    text-align: justify;
+    margin: 1rem auto 1rem;
+}
+
+.containPoliticTermins h3 {
+    font-size: 1.6rem;
+    margin: 1rem auto 1rem;
+}

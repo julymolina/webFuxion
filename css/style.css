@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --colorVeramas: #00C288;
+    --colorButton: rgba(0, 199, 20, 1);
+    --colorFontEmpresa: #c7c7c7;
+}
+
+header {
+    width: 100%;
+    border-bottom: 0.5rem solid #c7c7c7;
+}
+
+.containerHeader {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoHeader {
+    width: 14rem;
+    height: 7rem;
+    margin-left: 10rem;
+    background-image: url(../assets/Epigeneticalogo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.containMenuHeader {
+    width: 59rem;
+    margin: 0.5rem 23rem 0 0;
+}
+
+.menuHeader {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.menuHeader a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.menuHeader a:hover {
+    color: #384AD3;
+    transition: color 0.4s ease 0s;
+}
+
+
+/* AQUI EMPIEZA LA PRIMERA SECCION DEL MAIN  --AQUI EMPIEZA LA PRIMERA SECCION DEL MAIN  */
+
+main {
+    width: 100%;
+}
+
+.containSection1 {
+    width: 65%;
+    margin: 6.5rem auto 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containSection1 h3 {
+    font-size: 6rem;
+    color: var(--colorVeramas);
+    text-align: center;
+}
+
+.containSection1 p {
+    font-size: 1.4rem;
+    text-align: center;
+    width: 71%;
+    margin: 2.7rem 8rem 3.5rem 0;
+}
+
+.containerImgVera1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.imgVera1 {
+    background-image: url(../assets/sobrebigvera.png);
+    width: 41.2rem;
+    height: 40.6rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.imgFacts {
+    background-image: url(../assets/nutrition.png);
+    width: 26.8rem;
+    height: 37.9rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.buttonHome {
+    background: var(--colorButton);
+    color: white;
+    border: none;
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 6rem;
+    font-size: 2.5rem;
+    margin: 4rem 9rem 0 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.spanPrecio {
+    font-size: 2.5rem;
+    color: black;
+    margin-top: 1rem;
+}
+
+.spanPrecio::after {
+    content: '$55.00';
+    color: var(--colorButton);
+}
+
+.spanPrecio::before {
+    content: 'Precio: ';
+}
+
+
+/* AQUI EMPIEZA LA SEGUNDA SECCION DEL MAIN  --AQUI EMPIEZA LA SEGUNDA SECCION DEL MAIN  */
+
+.section2 {
+    width: 100%;
+    height: 52rem;
+    margin-top: 7rem;
+    background-image: linear-gradient(#d4f7fc 40%, #f3f0f3 100%);
+}
+
+.containerSect2 {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.item1Sect2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.sect2Img1,
+.sect2Img2,
+.sect2Img3,
+.sect2Img4,
+.sect2Img5 {
+    width: 20rem;
+    height: 20rem;
+    background-size: contain;
+    border-radius: 50%;
+}
+
+.sect2Img1 {
+    background-image: url('../assets/WhatsAppimg1.png');
+}
+
+.sect2Img2 {
+    background-image: url('../assets/WhatsAppimg2.png');
+}
+
+.sect2Img3 {
+    background-image: url('../assets/WhatsAppimg3.png');
+}
+
+.sect2Img4 {
+    background-image: url('../assets/WhatsAppimg4.png');
+}
+
+.sect2Img5 {
+    background-image: url('../assets/WhatsAppimg5.png');
+}
+
+.item1Sect2 h3 {
+    font-size: 2.3rem;
+    margin: 1.5rem 0 0;
+}
+
+.item1Sect2 span {
+    color: #FFD500;
+    font-size: 4rem;
+}
+
+.item1Sect2 p {
+    font-size: 1.4rem;
+    width: 19rem;
+    height: 20rem;
+    margin: 1rem 0 0;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+
+/* AQUI EMPIEZA LA TERCERA SECCION DEL MAIN  --AQUI EMPIEZA LA TERCERA SECCION DEL MAIN  */
+
+.section3 {
+    width: 100%;
+    height: 47rem;
+    background-color: #f2f2f2;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSect3 {
+    width: 70%;
+    margin: 3rem auto 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.imgSect3 {
+    background-image: url('../assets/veramas.png');
+    width: 40rem;
+    height: 34.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.containParagrafSect3 {
+    height: 39rem;
+    width: 55.3rem;
+    margin-left: 2rem;
+}
+
+.containParagrafSect3 h3 {
+    font-size: 2.5rem;
+    width: 12rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.3rem solid rgba(186, 218, 85, 1);
+}
+
+.containParagrafSect3 p,
+li {
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.containParagrafSect3 li {
+    margin-left: 2rem;
+}
+
+.containParagrafSect3 span {
+    text-align: center;
+}
+
+.buttonSect3 {
+    display: grid;
+    grid-column: 2;
+    height: 5rem;
+    width: 55%;
+    margin: auto;
+}
+
+.buttonSect3 span {
+    margin: 2rem 0 -3rem;
+}
+
+.buttonSect3 button {
+    font-size: 2rem;
+    height: 5rem;
+    outline: none;
+    box-shadow: none;
+}
+
+
+}
+
+/* AQUI EMPIEZA LA CUARTA SECCION DEL MAIN  --AQUI EMPIEZA CUARTA SECCION DEL MAIN  */
+.section4 {
+    width: 100%;
+    height: 59rem;
+    margin: 2rem 0 2rem;
+}
+.containSect4 {
+    width: 80%;
+    height: 50rem;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.section4 h3 {
+    font-size: 6rem;
+    color: var(--colorVeramas);
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.containerVideo h4 {
+    font-size: 2.1rem;
+    text-align: center;
+}
+.containerVideo {
+    height: 41.1rem;
+    width: 52rem;
+    margin-right: 6rem;
+}
+.containerVideo1 {
+    width: 52rem;
+    height: 29rem;
+    margin-top: 4rem;
+}
+.containerVideo1 iframe {
+    width: 100%;
+    height: 100%;
+}
+.imgSect4 {
+    background-image: url('../assets/nutrition.png');
+    width: 30rem;
+    height: 43rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* AQUI EMPIEZA LA QUINTA SECCION DEL MAIN  --AQUI EMPIEZA QUINTA SECCION DEL MAIN  */
+.section5 {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    margin-bottom: 2rem;
+}
+.container1Sect5 {
+    width: 54.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #8f60bd;
+    height: 100%;
+}
+.logoSect5 {
+    background-image: url('../assets/Epigeneticalogobig.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 34.8rem;
+    height: 20rem;
+    margin-top: 4rem;
+}
+.container1Sect5 p {
+    width: 38.9rem;
+    height: 12rem;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.container2Sect5 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container2Sect5 video {
+    height: auto;
+}
+
+/* AQUI EMPIEZA LA SEXTA SECCION DEL MAIN  --AQUI EMPIEZA SEXTA SECCION DEL MAIN  */
+.section6 {
+    width: 100%;
+    height: 55rem;
+}
+.containSect6 {
+    width: 60%;
+    height: 50rem;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containSect6 h1 {
+    font-size: 6rem;
+    width: 100%;
+    text-align: center;
+    margin: 4rem auto 4rem;
+}
+.containSect6 iframe {
+    width: 100%;
+    height: 37.0rem;
+}
+
+/* AQUI EMPIEZA LA ULTIMA SECCION DEL MAIN  --AQUI EMPIEZA LA ULTIMA SECCION DEL MAIN  */
+footer {
+    width: 100%;
+    height: 18.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-top: 0.5rem solid #999997;
+}
+.containFooter {
+    width: 85%;
+    margin: 3rem auto 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.containAnclas a {
+    margin-right: 2rem;
+    color: #000000;
+}
+.containFooter p {
+    margin-left: 10rem;
+    text-align: justify;
+    margin-top: -0.1rem;
+}
+footer p {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    color: #000000;
+}
