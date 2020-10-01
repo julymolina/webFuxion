@@ -3,12 +3,16 @@
     --colorLinea: #a1a1a1;
 }
 
+
+
 .img2Empresa,
 .img3Empresa,
 .img4Empresa,
 .img5Empresa,
 .img6Empresa,
 .img7Empresa {
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 98rem;
     height: 36rem;
     display: flex;
@@ -36,11 +40,6 @@
 
 /* PRIMERA SECTION PRIMERA SECTION PRIMERA SECTION PRIMERA SECTION  */
 
-main {
-    width: 95%;
-    margin: auto;
-}
-
 .section1Empresa {
     width: 80%;
     height: 48.7rem;
@@ -52,6 +51,8 @@ main {
 
 .img1Empresa {
     background-image: url('../assets/la-empresa-imagen1.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
     width: 98rem;
     height: 40rem;
     display: flex;
@@ -75,8 +76,11 @@ main {
     width: 98rem;
     height: 40rem;
     position: absolute;
+    display: block;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .imgLeft1 {

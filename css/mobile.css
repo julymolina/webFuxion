@@ -1,0 +1,332 @@
+@media screen and (min-width: 320px) and (max-width: 425px) {
+   /* Ocultamos el input y le damos estilos al label */
+
+   input#abrir-cerrar { 
+    visibility:hidden;
+    position: absolute;
+}
+
+.toggle-button {
+    display:block;
+    width:50px;
+    height:50px;
+    position:relative;
+    cursor: pointer;
+}
+
+/* Usamos los :before y :after del label para dibujar las tres rayitas */
+
+.toggle-button:before, .toggle-button:after {
+    position:absolute;
+    display:block;
+    content:" ";
+    width: calc(100% / 2);               
+    box-sizing: border-box;
+    left: calc(100% / 4);
+    transition: all 0.2s ease-out;
+}
+
+.toggle-button:before {
+    top: calc(100% / 4);
+    height:calc(100% / 4);
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    background-color: transparent;
+}
+
+.toggle-button:after {
+    height:1px;
+    background-color:black;
+    bottom:calc(100% / 4);
+}
+
+/* Hacemos clic y el input queda como :checked, así que los centramos y giramos 45º en distinto sentido */
+
+input#abrir-cerrar:checked + .toggle-button:before, input#abrir-cerrar:checked + .toggle-button:after {
+    top:calc(100% / 2);
+    height:1px;
+    border-bottom:0;
+}
+
+input#abrir-cerrar:checked + .toggle-button:before {
+    transform: rotate(45deg); 
+}
+
+input#abrir-cerrar:checked + .toggle-button:after {
+    transform: rotate(-45deg);
+}
+
+/* Posicionamos y mostramos cuando procede los <span> que nos ayudarán con los tooltips */
+
+.abrir, .cerrar { 
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    text-indent: -9999px;
+}
+
+.abrir {
+    display:block;
+}
+
+.cerrar {
+    display:none;
+}
+
+input#abrir-cerrar:checked + .toggle-button .abrir {
+    display:none;
+}
+
+input#abrir-cerrar:checked + .toggle-button .cerrar {
+    display:block;
+}      
+/* ESTILOS PARA POSICIONAR EL BOTON  */
+
+
+
+    /* PRIMERA SECCION PRIMERA SECCION  */
+
+    .logoHeader {
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .containerHeader {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .containMenuHeader{
+        display: none;
+    }
+
+    .containSection1 h3 {
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+
+    /* PRIMERA SECCION PRIMERA SECCION  */
+
+    .buttonHome {
+        font-size: 1.7rem;
+        width: 98%;
+        margin: auto;
+        height: auto ;
+    }
+
+
+     /* SEGUNDA SECCION SEGUNDA SECCION  */
+     .containerSect2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+     /* TERCERA SECCION TERCERA SECCION  */    
+
+    .containerSect3 {
+        width: 85%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 8rem;
+        border-bottom: 12rem solid #f2f2f2;
+    }    
+
+    .imgSect3 {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .containParagrafSect3 {
+        width: 100%;
+        margin: auto;   
+    }
+
+    .containParagrafSect3 p,
+    li {
+    font-size: 1.2rem;
+    }
+
+    .buttonSect3 {
+    display: flex;
+    height: 15rem;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    }
+
+    .buttonSect3 span {
+        margin: 0;
+    }
+    .spanPrecio {
+        color: black;
+    }
+
+/* CUARTA SECCION CUARTA SECCION  */
+
+.section4 {
+    height: auto;
+}
+.section4 h3 {
+    font-size: 4rem;
+}
+.containerVideo h4 {
+    font-size: 1.5rem;
+}
+.containSect4 { 
+    height: auto;
+    margin: auto;
+}
+.containSect4, .containerVideo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerVideo {
+    height: 40rem;
+    width: 26rem;
+    margin-right: 0;
+    margin-top: -7rem;
+}
+.containerVideo1 {
+    width: auto;
+    height: auto;
+    margin-top: 2rem;
+}
+.imgSect4 {
+    width: 20rem;
+    margin-top: -7rem;
+}
+
+/* SECTION 5 SECTION 5  */
+
+.section5 {
+    height: auto;
+    margin-top: -10rem;
+}
+
+.container1Sect5 {
+    width: 100%;
+}
+
+.logoSect5 {
+    width: 20rem;
+    height: 15rem;
+    margin-top: 0rem;
+}
+.container2Sect5 {
+    width: 0;
+    height: 0;
+}
+.container1Sect5 p {
+    width: 90%;
+    height: auto;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+/* SECCION 6 SECCION 6  */
+
+.section6 {
+    margin-bottom: -22rem;
+}
+.containSect6 {
+    width: 95%;
+    height: auto;
+}
+
+.containSect6 h1{
+    font-size: 2.6rem;
+    margin:  1rem 0 0;
+    }
+
+ .containSect6 iframe {
+        margin-top: -4rem;
+    }
+
+    /* FOOTER FOOTER FOOTER  */
+
+    .containAnclas, footer, .containFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .containFooter p {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 2rem;
+}
+
+/* EMPRESA EMPRESA EMPRESA EMPRESA  */
+
+.img1Empresa p {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+}
+.img1Empresa {
+    height: 15rem;
+    margin-bottom: 15rem;
+}
+/* MARCA DE AGUA MARCA DE AGUA  */
+.containWatermark1, .containWatermark {
+    display: none;
+  }
+
+  .img01Empresa {
+      margin-top: 1rem;
+    margin-right: 0;
+    margin-bottom: 2rem;
+}
+
+  .img2Empresa,
+  .img3Empresa,
+  .img4Empresa,
+  .img5Empresa,
+  .img6Empresa,
+  .img7Empresa {
+      height: 12rem;
+      font-size: 1rem;
+      margin-top: -25rem;
+  }
+
+  .paragrafEmpresa p {
+    margin-left: 0;
+    font-size: 1.2rem;
+    }
+
+    .section2Empresa {
+        margin: -18rem auto 2rem;
+    }
+    .title03Empresa {
+        text-align: center;
+        margin: -5rem 0 0;
+        font-size: 2rem;
+        }
+    
+        .img02Empresa,
+        .img03Empresa,
+        .img04Empresa,
+        .img05Empresa,
+        .img06Empresa,
+        .img07Empresa {
+            width: 15rem;
+            height: 13rem;
+            margin-right: 0;
+        }
+
+        .pFinalEmpresa {
+            font-size: 1.3rem;
+            margin: 0;
+        }
+        .img4Empresa h1 {
+            margin-top: 2rem;
+        }
+        
+        
+}

@@ -1,0 +1,136 @@
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    /* SEGUNDA SECCION SEGUNDA SECCION  */
+    .containerSect2 {
+        display: flex;
+        flex-direction: column;
+    }
+    /* TERCERA SECCION TERCERA SECCION  */
+    .containerSect3 {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 9rem solid #f2f2f2;
+    }
+    .imgSect3 {
+        width: 30rem;
+        height: 30rem;
+    }
+    .containParagrafSect3 {
+        height: auto;
+        width: 45rem;
+        margin: auto;
+    }
+    .containParagrafSect3 p,
+    li {
+        font-size: 1.4rem;
+    }
+    /* SECCION 4 SECCION 4  */
+
+    .containSect4 {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+    .containerVideo {
+        margin-right: 0;
+    }
+    .section4 h3 {
+        font-size: 5rem;
+    }
+    /* SECCION 5 SECCION 5  */
+
+    .container2Sect5 {
+        width: 0;
+        height: 0;
+    }
+    .container1Sect5 {
+        width: 100%;
+    }
+    .logoSect5 {
+        width: 32rem;
+    }
+    .container1Sect5 p {
+        width: 38rem;
+        height: auto;
+        font-size: 1.5rem;
+    }
+    /* SECCION 6 SECCION 6  */
+
+    .containSect6 h1 {
+        font-size: 4rem;
+        width: 100%;
+        margin: 1rem auto 1rem;
+    }
+    /* FOOTER FOOTER  */
+    
+    footer p {
+        font-size: 1.2rem;
+    }
+
+    /* EMPRESA EMPRESA EMPRESA EMPRESA EMPRESA EMPRESA EMPRESA */
+
+    .section1Empresa {
+        margin: 3rem auto 0;
+    }
+
+    .img1Empresa {
+        width: 98rem;
+        height: 29rem;
+    }
+    
+    
+    /* MARCA DE AGUA MARCA DE AGUA  */
+    .containWatermark1, .containWatermark {
+      display: none;
+    }
+    
+    /* SECCION 2 EN ADELANTE */
+
+    .paragrafEmpresa {
+        width: 85%;
+        margin: auto;
+        border-left: none;
+    }
+
+     .paragrafEmpresa p {
+    margin-left: 0;
+    font-size: 1.3rem;
+    }
+
+    .img02Empresa,
+.img03Empresa,
+.img04Empresa,
+.img05Empresa,
+.img06Empresa,
+.img07Empresa {
+    margin-top: -15rem;
+}
+
+    .img2Empresa,
+.img3Empresa,
+.img4Empresa,
+.img5Empresa,
+.img6Empresa,
+.img7Empresa {
+    height: 25rem;
+    font-size: 2.1rem;
+    margin-top: -9rem;
+}
+     
+    .title03Empresa {
+        text-align: center;
+        margin: -15rem 0 0;
+        }
+    
+    /* SECCION 4 SECCION 4  */
+
+    .pFinalEmpresa {
+         
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+}

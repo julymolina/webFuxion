@@ -4,6 +4,17 @@
     padding: 0;
 }
 
+input#abrir-cerrar { 
+    visibility:hidden;
+    position: absolute;
+    top: -9999px;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
@@ -16,7 +27,6 @@ html {
 }
 
 header {
-    width: 100%;
     border-bottom: 0.5rem solid #c7c7c7;
 }
 
@@ -65,10 +75,6 @@ header {
 
 
 /* AQUI EMPIEZA LA PRIMERA SECCION DEL MAIN  --AQUI EMPIEZA LA PRIMERA SECCION DEL MAIN  */
-
-main {
-    width: 100%;
-}
 
 .containSection1 {
     width: 65%;
@@ -146,7 +152,7 @@ main {
 
 .section2 {
     width: 100%;
-    height: 52rem;
+    height: auto;
     margin-top: 7rem;
     background-image: linear-gradient(#d4f7fc 40%, #f3f0f3 100%);
 }
@@ -160,7 +166,7 @@ main {
 
 .item1Sect2 {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,6 +183,7 @@ main {
     height: 20rem;
     background-size: contain;
     border-radius: 50%;
+    background-repeat: no-repeat;
 }
 
 .sect2Img1 {
@@ -223,7 +230,7 @@ main {
 
 .section3 {
     width: 100%;
-    height: 47rem;
+    height: auto;
     background-color: #f2f2f2;
     margin-top: 1.5rem;
     display: flex;
@@ -232,8 +239,8 @@ main {
 }
 
 .containerSect3 {
-    width: 70%;
-    margin: 3rem auto 3.5rem;
+    width: 72%;
+    margin: 3rem 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -262,7 +269,7 @@ main {
 
 .containParagrafSect3 p,
 li {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-top: 1.5rem;
 }
 
@@ -298,7 +305,7 @@ li {
 
 .section4 {
     width: 100%;
-    height: 59rem;
+    height: auto;
     margin: 2rem 0 2rem;
 }
 
@@ -364,7 +371,7 @@ li {
     flex-direction: column;
     align-items: center;
     background-color: #8f60bd;
-    height: 100%;
+    height: auto;
 }
 
 .logoSect5 {
@@ -419,7 +426,7 @@ li {
 }
 
 .containSect6 h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     width: 100%;
     text-align: center;
     margin: 4rem auto 4rem;
@@ -434,7 +441,6 @@ li {
 /* AQUI EMPIEZA LA ULTIMA SECCION DEL MAIN  --AQUI EMPIEZA LA ULTIMA SECCION DEL MAIN  */
 
 footer {
-    width: 100%;
     height: 18.5rem;
     text-align: center;
     font-size: 1.5rem;
