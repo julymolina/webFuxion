@@ -6,14 +6,14 @@
   </div>
 
   <div class="resumenPedido">
-      <p> 1 </p>
+      <p> {{currentItem.quantity}} </p>
       <p> VERA + </p>
-      <p> $ 55,00 </p>
+      <p> $ {{currentItem.price|number:'1.2'}} </p>
   </div>
 
   <div class="totalSection2">
       <p>Total parcial</p>
-      <p> $ 55,00 </p>
+      <p> $ {{getTotal()|number:'1.2'}} </p>
   </div>
 
   <p class="paragrafImpuestos">Precio completo sin impuestos.</p>
