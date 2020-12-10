@@ -23,10 +23,10 @@
             <input required class="inputCity" id="city" name="city" type="text" placeholder="Ciudad">
 
             <select class="selectCountry" name="country">
-                <option value=""></option>
-                <option value="">ECUADOR</option>
-                <option value="">PERÚ</option>
-                <option value="">CHILE</option>
+                <!-- <option value=""></option> -->
+                <option value="">USA</option>
+                <!-- <option value="">PERÚ</option>
+                <option value="">CHILE</option> -->
             </select>
 
             <input required class="inputCP" type="text" name="Postal" placeholder="Código Postal" >
@@ -40,6 +40,6 @@
 
         <app-resume-order></app-resume-order>
     </section>
-    <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a>
-    <a routerLink="/store/be-fuxion"><button class="buttonContinuar3">Continuar</button></a>
+    <!-- <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a> -->
+    <a (click)="complete()"><button class="buttonContinuar3">Continuar</button></a>
 </main>

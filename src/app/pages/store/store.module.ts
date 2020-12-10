@@ -12,36 +12,44 @@ import { ThanksComponent } from '../store/thanks/thanks.component';
 import { RouterModule, Routes } from '@angular/router';
 import { StoreHeaderComponent } from './store-header/store-header.component';
 import { ResumeOrderComponent } from './resume-order/resume-order.component';
+import { PaypalResolver } from './paypal.resolver';
 
 const routes: Routes = [
   {
     path: 'store',
     component: StoreComponent,
+    // resolve: { paypal: PaypalResolver },
   },
 
   {
     path: 'store/personal-info',
     component: PersonalInfoComponent,
+    resolve: { paypal: PaypalResolver },
   },
   {
     path: 'store/delivery-address',
     component: DeliveryAddressComponent,
+    resolve: { paypal: PaypalResolver },
   },
   {
     path: 'store/be-fuxion',
     component: BeFuxionComponent,
+    // resolve: { paypal: PaypalResolver },
   },
   {
     path: 'store/payment',
     component: PaymentComponent,
+    resolve: { paypal: PaypalResolver },
   },
   {
     path: 'store/checkout',
     component: CheckoutComponent,
+    resolve: { paypal: PaypalResolver },
   },
   {
     path: 'store/thanks',
     component: ThanksComponent,
+    // resolve: { paypal: PaypalResolver },
   },
 ];
 

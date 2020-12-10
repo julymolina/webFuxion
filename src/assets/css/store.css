@@ -78,15 +78,15 @@ input, .formDirection select {
 
 .containLogoStore {
     width: 14rem;
-    height: 3.2rem;
+    height: 5.2rem;
 }
 
 .logoStore {
-    background-image: url(/assets/img/logo-fuxion-azul-new.png);
-    width: 100%;
+    background-image: url(/assets/img/Epigeneticalogo.png);
     height: 100%;
     background-position: center;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .section2Header {

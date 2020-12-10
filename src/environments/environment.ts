@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  paypal: {
+    client_id:
+      'ARgGNZRDN6Lm9AdXb0ZlOWR0ULt6HRUAqY5mA_3lcVmKOWs9Pt40vIoMwC8JSpEVYfmKrVkdXXITZVwf',
+    payee: 'sb-qq92l1578270@business.example.com',
+  },
 };
 
 /*

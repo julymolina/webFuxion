@@ -11,7 +11,7 @@
 <main class="mainStore">
   <section class="section1MainStore">
     <section class="sect1-2MainStore">
-      <form class="formPerson" action="">
+      <form class="formPerson" (ngSubmit)="proccessInfo()">
         <input type="text" required name="Apellido" placeholder="Apellido" />
         <input
           type="text"
@@ -26,13 +26,7 @@
           name="Correo electrónico"
           placeholder="Correo electronico"
         />
-        <button
-          class="sectButton"
-          type="submit"
-          routerLink="/store/delivery-address"
-        >
-          Seguir
-        </button>
+        <button class="sectButton" type="submit">Seguir</button>
       </form>
     </section>
 
