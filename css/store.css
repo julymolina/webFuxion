@@ -1,0 +1,488 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 1.4rem;
+}
+
+:root {
+    --colorBoxShadow: rgba(128,98,96,.16);
+    --colorBlueFuxion: #0086d6;
+    --colorBlueHover:  #0094de;
+    --colorBackInput:  #eeeeee;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* BORDER RADIUS AND BOX SHADOW  */
+
+.countryHeader, .cartHeader, .langHeader, .sect1MainStore, .totalParcial, .sect1-2MainStore, .totalParcial2, .sect1-3MainStore, .formLogin, .sect1-5MainStore, .sect1-6MainStore div {
+    border-radius: 1rem;
+    box-shadow: 0 0.6rem 1rem 0 var(--colorBoxShadow);
+}
+
+.div1MainStore, .calculoMainStore, .section1MainStore, .sect1MainStore, .div2MainStore, .patrocinador, .patrocinador2, .patrocinador6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* BOTONES BOTONES BOTONES BOTONES  BOTONES  BOTONES  BOTONES  BOTONES */
+
+button {
+    background-color: var(--colorBlueFuxion);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    outline: none;
+}
+
+button:hover {
+    background-color: var(--colorBlueHover);
+}
+
+input, .formDirection select {
+    border: 0.1rem solid var(--colorBoxShadow);
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+/* EMPIEZA HEADER EMPIEZA HEADER EMPIEZA HEADER  */
+
+.headerStore {
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.2rem 1rem 0 #c1c1c1;
+}
+
+.containHeaderStore {
+    height: 4.3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+}
+
+.containLogoStore {
+    width: 14rem;
+    height: 3.2rem;
+}
+
+.logoStore {
+    background-image: url('/assets/logo-fuxion-azul-new.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: contain;
+}
+
+.section2Header {
+    width: 27rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.countryHeader, .cartHeader, .langHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryHeader {
+    width: 13.4rem; 
+}
+
+.countryHeader img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.cartHeader {
+    width: 4.8rem;
+}
+
+.cartHeader img {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+
+/* MENU LENGUAJE MENU LENGUAJE MENU LENGUAJE MENU LENGUAJE  */
+
+.langHeader {
+    width: 5rem;
+}
+.langHeader ul {
+    list-style: none;
+}
+
+.langHeader img {
+    width: 0.7em;
+    height: 1.2rem;
+    margin-left: 0.5rem;
+}
+
+.langHeader ul {
+    display: none;
+    list-style: none;
+}
+
+.langHeader ul li:hover {
+    display: absolute;
+}
+
+
+
+/* AQUI EMPIEZA EL MAIN  -AQUI EMPIEZA EL MAIN -AQUI EMPIEZA EL MAIN -AQUI EMPIEZA EL MAIN  */
+
+.patrocinador {
+    width: 50%;
+    margin: 3rem 15rem 0;
+}
+
+
+.div1MainStore img {
+    width: 12rem;
+    height: 12rem;
+    margin-left: 1rem;
+}
+
+.mainStore {
+    width: 83%;
+    margin: auto;
+    height: 100vh;
+}
+
+.sect1MainStore {
+    width: 80rem;
+    height: 15.5rem;
+    margin-top: 2rem;
+}
+
+.totalParcial {
+    margin-top: 6rem;
+    height: 15.5rem;
+    width: 25.5rem;
+    margin-top: 2rem;
+}
+
+.div2MainStore {
+    margin-right: 5rem;
+}
+
+.quantityMainStore {
+    width: 6rem;
+    height: 4.7rem;
+    margin: 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quantityMainStore input {
+    border: 0.1rem solid var(--colorBoxShadow);
+    width: 4.6rem;
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.calculoMainStore {
+    margin: 0 2rem 0;
+}
+
+.calculoMainStore button {
+    width: 1.8rem;
+    background-color: var(--colorBlueFuxion);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.totalParcial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.totalParcial button {
+    width: 22.5rem;
+    height: 4.3rem;
+    box-sizing: border-box;
+}
+
+
+/* PAGINA 2 PAGINA 2 PAGINA 2 PAGINA 2 PAGINA 2 PAGINA 2PAGINA 2PAGINA 2PAGINA 2PAGINA 2PAGINA 2PAGINA 2PAGINA 2 */
+
+.sect1-2MainStore {
+    width: 73.2rem;
+    height: 18.9rem;
+    margin: 2rem;
+}
+
+.totalParcial2 {
+    height: 18.9rem;
+    width: 35.3rem;
+    margin-left: 1rem;
+}
+
+.formPerson {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2rem 1rem 0;
+    
+}
+
+.formPerson input {
+    height: 3.5rem;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.patrocinador2 {
+    width: 68%;
+    margin: 3rem 15rem 0;
+}
+
+.patrocinador2 p, .patrocinador6 p, .patrocinador {
+    color: var(--colorBlueFuxion);
+}
+
+.resumenPedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8rem;
+    width: 31.9rem;
+    margin: auto;
+    border-bottom: 0.1rem solid var(--colorBoxShadow);
+}
+
+.paragrafImpuestos {
+    margin-left: 3.5rem;
+}
+
+.totalSection2 {
+    width: 31.9rem;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1.8rem;
+}
+
+.sectButton {
+    width: 10rem;
+    height: 3.6rem;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 24rem;
+}
+ 
+
+
+/* PAGINA 3  PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3  */
+
+
+.sect1-3MainStore {
+    width: 73.2rem;
+    height: 23rem;
+    margin: 4rem 0 0 0;
+}
+
+.formDirection {
+    width: 70rem;
+    height: 15rem;
+    padding: 2rem 2rem 0;
+}
+
+.formDirection input {
+    height: 3rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.inputDir {
+    width: 65rem;
+}
+.inputCity {
+ width: 22.3rem;
+}
+.inputCP {
+    width: 17rem;
+    margin: 0;
+}
+
+.formDirection select {
+    height: 3rem;
+    color: var(--colorBlueFuxion);
+    width: 23rem;
+    margin-right: 1rem;
+}
+
+.buttonVerificate {
+    width: 16rem;
+    height: 3.7rem;
+    margin-top: 1rem;
+}
+
+.buttonContinuar3 {
+    width: 13rem;
+    height: 3.7rem;
+    margin-left: 45rem; 
+    margin-top: 1.5rem;
+}
+
+.buttonContinuar3-1 {
+    width: 13rem;
+    height: 3.7rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+
+/* PAGINA 4  PAGINA 4 PAGINA 4 PAGINA 4 PAGINA 4 PAGINA 4 PAGINA 4  */
+
+.formLogin {
+    width: 73rem;
+    height: 23rem;
+    padding: 2rem 2rem 0;
+    margin-top: 1rem;
+}
+
+.sect1-4MainStore {
+    width: 73.2rem;
+    height: 25rem;
+    margin: 4rem 0 0 0;
+}
+
+.containEmail {
+    height: 3rem;
+    width: 69rem;
+    margin-top: 1.5rem;
+    padding: 1rem; 
+}
+
+.containEmail, .medidor, .containCP {
+    background-color: var(--colorBackInput);
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--colorBoxShadow);
+}
+
+.password, .password1 {
+    height: 3.1rem;
+    width: 34rem;
+    margin-top: 1.5rem;
+}
+
+.medidor {
+    width: 34rem;
+    height: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.containCP {
+    height: 3rem;
+    width: 34rem;
+    margin-top: 0.5rem;
+    padding: 1rem; 
+}
+
+/* PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5   */
+
+.sect1-5MainStore {
+    width: 73rem;
+    height: 38rem;
+    padding: 2.5rem 2.5rem 0.5rem;
+    margin-top: 5rem;
+}
+
+.formPago {
+    margin-top: 1rem;
+    border-bottom: 0.1rem solid var(--colorBoxShadow);
+    padding-bottom: 1rem;
+    padding-left: 1.3rem;
+}
+
+.nameCard, .numberCard, .dateMes, .dateAño, .containCvv {
+    height: 3.1rem;
+    margin-top: 1.5rem;
+}
+
+.nameCard{
+    width: 32.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.numberCard {
+    width: 32.5rem;
+}
+
+.dateMes {
+width: 8rem;
+margin-right: 2rem;
+}
+.dateAño {
+    width: 8rem;
+    margin-right: 15rem;
+}
+
+.containCvv {
+    width: 8rem;
+}
+
+
+/* PAGINA 6  PAGINA 6  PAGINA 6  PAGINA 6  PAGINA 6  PAGINA 6  PAGINA 6   */
+
+.sect1-6MainStore {
+    width: 73rem;
+    margin-top: -4.5rem;
+    height: 15rem;
+}
+
+.sect1-6MainStore div {
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    height: 7rem;
+    width: 72rem;
+}
+
+.patrocinador6 {
+    width: 68%;
+    margin: 3rem 15rem 5rem;
+}
+
+.buttonContinuar6-1 {
+    width: 13rem;
+    height: 3.7rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+}
+
+.buttonContinuar6 {
+    width: 13rem;
+    height: 3.7rem;
+    margin-left: 44rem; 
+    margin-top: 2rem;
+}
