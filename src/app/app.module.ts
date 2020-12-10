@@ -9,7 +9,7 @@ import { PoliticasComponent } from './pages/politicas/politicas.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-import { StoreComponent } from './pages/store/store.component';
+import { StoreModule } from './pages/store/store.module';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
@@ -21,9 +21,8 @@ import { FormsModule } from '@angular/forms';
     TerminosComponent,
     FooterComponent,
     HeaderComponent,
-    StoreComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, FormsModule],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, StoreModule],
   providers: [],
   bootstrap: [AppComponent],
 })

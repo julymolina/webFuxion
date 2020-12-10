@@ -1,0 +1,45 @@
+
+    <!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
+
+  <app-store-header></app-store-header>
+
+<!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
+
+<div class="patrocinador2">
+    <p>DIRECCIÓN DE ENVÍO</p>
+    <p>RESUMEN DEL PEDIDO</p>
+</div>
+ <main class="mainStore">
+    <section class="section1MainStore">
+        <section class="sect1-3MainStore">
+
+            <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
+
+        <form class="formDirection" action="">
+            <label for="direction">Dirección <span  style="color: rgb(206, 4, 4);" >*</span></label> <br/>
+            <input required class="inputDir" id="direction" name="direction" type="text" placeholder="Dirección"> <br/>
+
+            <label for="city"> Ciudad / Estado / Código Postal</label> <br/>
+            <input required class="inputCity" id="city" name="city" type="text" placeholder="Ciudad">
+
+            <select class="selectCountry" name="country">
+                <option value=""></option>
+                <option value="">ECUADOR</option>
+                <option value="">PERÚ</option>
+                <option value="">CHILE</option>
+            </select>
+
+            <input required class="inputCP" type="text" name="Postal" placeholder="Código Postal" >
+
+            <button class="buttonVerificate"> Verificar Dirección </button>
+        </form>
+        </section>
+
+
+        <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
+
+        <app-resume-order></app-resume-order>
+    </section>
+    <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a>
+    <a routerLink="/store/be-fuxion"><button class="buttonContinuar3">Continuar</button></a>
+</main>

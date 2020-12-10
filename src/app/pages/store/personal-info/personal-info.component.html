@@ -1,0 +1,43 @@
+<!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
+
+<app-store-header></app-store-header>
+
+<!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
+
+<div class="patrocinador2">
+  <p>INFORMACIÓN PERSONAL</p>
+  <p>RESUMEN DEL PEDIDO</p>
+</div>
+<main class="mainStore">
+  <section class="section1MainStore">
+    <section class="sect1-2MainStore">
+      <form class="formPerson" action="">
+        <input type="text" required name="Apellido" placeholder="Apellido" />
+        <input
+          type="text"
+          required
+          name="Teléfono"
+          placeholder="Telefono móvil"
+        />
+        <input type="text" required name="Nombre" placeholder="Nombre" />
+        <input
+          type="text"
+          required
+          name="Correo electrónico"
+          placeholder="Correo electronico"
+        />
+        <button
+          class="sectButton"
+          type="submit"
+          routerLink="/store/delivery-address"
+        >
+          Seguir
+        </button>
+      </form>
+    </section>
+
+    <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
+
+    <app-resume-order></app-resume-order>
+  </section>
+</main>

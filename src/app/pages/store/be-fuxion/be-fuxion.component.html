@@ -1,0 +1,43 @@
+
+
+    <!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
+
+<app-store-header></app-store-header>
+<!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
+
+<div class="patrocinador2">
+    <p>DIRECCIÓN DE ENVÍO</p>
+    <p>RESUMEN DEL PEDIDO</p>
+</div>
+ <main class="mainStore">
+    <section class="section1MainStore">
+        <section class="sect1-4MainStore">
+
+            <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
+
+        <form class="formLogin" action="">
+            <input type="checkbox" name="4Login" id="4Login">
+            <label for="4Login"> Quiero ser cliente de Fuxion </label> <br/>
+
+            <div class="containEmail"> Contiene Email ingresado en el Form anterior</div>
+
+            <input class="password" type="password" placeholder="Contraseña" >
+            <input class="password1"  type="password" placeholder="Vuelva a escribir la contraseña"> <br/>
+
+            <div class="medidor"></div> <br/>
+
+            <div class="containCP">Contiene Codigo Postal</div>
+
+
+            <!-- <input type="password" name="pass" pattern="[A-Za-z][A-Za-z0-9]*[0-9][A-Za-z0-9]*" title="La contraseña debe empezar con una letra y contener al menos un dígito" required> -->
+        </form>
+        </section>
+
+
+        <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
+
+        <app-resume-order></app-resume-order>
+    </section>
+    <a routerLink="/store/delivery-address"><button class="buttonContinuar3-1">Atras</button></a>
+    <a routerLink="/store/payment"><button class="buttonContinuar3">Continuar</button></a>
+</main>

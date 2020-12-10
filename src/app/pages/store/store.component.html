@@ -1,32 +1,7 @@
 <link rel="stylesheet" href="/assets/css/store.css" />
 <title>Tienda Fuxion</title>
 
-<header class="headerStore">
-  <section class="containHeaderStore">
-    <section class="containLogoStore">
-      <div class="logoStore"></div>
-    </section>
-
-    <section class="section2Header">
-      <div class="countryHeader">
-        <img src="assets/img/usa.png" alt="" />
-        <p>
-          Estados <br />
-          Unidos
-        </p>
-      </div>
-
-      <div class="cartHeader">
-        <img src="assets/img/iconscart.png" alt="" />
-      </div>
-
-      <div class="langHeader">
-        <p>ES</p>
-        <img src="assets/img/iconsdown.png" alt="" />
-      </div>
-    </section>
-  </section>
-</header>
+<app-store-header></app-store-header>
 
 <!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
 
@@ -74,7 +49,7 @@
         SubTotal:
         <span style="float: right">$ {{ getTotal() | number: "1.2" }}</span>
       </p>
-      <a href="store2.html"><button>¡Comprar Ahora!</button></a>
+      <a routerLink="/store/personal-info"><button>¡Comprar Ahora!</button></a>
     </section>
   </section>
 </main>
