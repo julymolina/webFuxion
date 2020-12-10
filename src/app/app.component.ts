@@ -10,6 +10,8 @@ export class AppComponent implements AfterViewInit {
   title = 'epigenetica';
 
   ngAfterViewInit() {
-    mixpanel.track('AbrioApp');
+    if (mixpanel) {
+      mixpanel.track('AbrioApp');
+    }
   }
 }
