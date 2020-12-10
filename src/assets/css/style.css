@@ -130,6 +130,7 @@ header {
     margin: 4rem 9rem 0 0;
     outline: none;
     box-shadow: none;
+    cursor: pointer;
 }
 
 .buttonHome:hover {
