@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/store.css">
+    <title>Tienda Fuxion</title>
+</head>
+<body>
+
+    <!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
+
+    <header class="headerStore">
+        <section class="containHeaderStore">
+        <section class="containLogoStore">
+            <div class="logoStore"></div>
+        </section>
+
+        <section class="section2Header">
+            <div class="countryHeader">
+                <img src="assets/usa.png" alt="">
+                <p>Estados <br> Unidos</p>
+            </div>
+
+            <div class="cartHeader">
+                <img src="assets/iconscart.png" alt="">
+            </div>
+
+            <div class="langHeader">
+                    <p>ES</p>
+                    <img src="assets/iconsdown.png" alt="">
+            </div>
+        </section>
+    </section>
+    </header>
+
+<!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
+
+<div class="patrocinador2">
+    <p>FACTURACION / PAGO</p>
+    <p>RESUMEN DEL PEDIDO</p> 
+</div>
+ <main class="mainStore">
+    <section class="section1MainStore">
+        <section class="sect1-5MainStore">
+
+            <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
+
+            <strong>¿Cómo te gustaría pagar tu pedido</strong> </br>
+
+        <form class="formPago" action="">
+            <input type="radio"> Tarjeta de crédito</input> </br>
+
+            <input class="nameCard" type="text" placeholder="Nombre en la tarjeta">
+            <input maxlength="16" class="numberCard" type="text" placeholder="Número de Tarjeta"> </br>
+            
+            <label for="fecha"> Fecha de vencimiento <span  style="color: rgb(206, 4, 4);" >*</span> </label> </br>
+
+           <input class="dateMes" type="text" maxlength="2" placeholder="MM">
+           <input class="dateAño" type="text" maxlength="4" placeholder="AAAA"> 
+
+           <label  for="cvv">CVV</label>
+           <input class="containCvv" maxlength="3" type="text" placeholder="CVV" >
+             </br>
+        </form>
+
+        <form class="formDirection" action="">
+            <label for="direction">Dirección <span  style="color: rgb(206, 4, 4);" >*</span></label> </br>
+            <input required class="inputDir" id="direction" name="direction" type="text" placeholder="Dirección"> </br>
+
+            <label for="city"> Ciudad / Estado / Código Postal</label> </br>
+            <input required class="inputCity" id="city" name="city" type="text" placeholder="Ciudad">
+
+            <select class="selectCountry" name="country">
+                <option value=""></option>
+                <option value="">ECUADOR</option>
+                <option value="">PERÚ</option>
+                <option value="">CHILE</option>
+            </select>
+
+            <input required class="inputCP" type="text" name="Postal" placeholder="Código Postal" >
+        </form>
+        </section>
+        
+
+        <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
+
+        <section class="totalParcial2">
+            <div class="resumenPedido">
+                <strong>Cantidad</strong> 
+                <strong>Descripción</strong>
+                <strong>Precio</strong>
+            </div>  
+
+            <div class="resumenPedido">
+                <p> 1 </p>
+                <p> VERA + </p>
+                <p> $ 55,00 </p>
+            </div>
+
+            <div class="totalSection2">
+                <p>Total parcial</p>
+                <p> $ 55,00 </p>
+            </div>
+
+            <p class="paragrafImpuestos">Precio completo sin impuestos.</p>
+        </section>
+    </section>
+    <a href="store4.html"><button class="buttonContinuar3-1">Atras</button></a>
+    <a href="store6.html"><button class="buttonContinuar3">Continuar</button></a>
+</main>
+</body>
+</html>
