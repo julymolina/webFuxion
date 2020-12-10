@@ -50,7 +50,7 @@
 }
 
 .img1Empresa {
-    background-image: url('../assets/la-empresa-imagen1.webp');
+    background-image:  url(/assets/img/la-empresa-imagen1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     width: 98rem;
@@ -84,14 +84,14 @@
 }
 
 .imgLeft1 {
-    background-image: url('/assets/arrow-fuxion-delgado1.webp');
+    background-image: url(/assets/img/arrow-fuxion-delgado1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     width: 13rem;
 }
 
 .imgRight1 {
-    background-image: url('/assets/arrow-fuxion-delgado-right1.webp');
+    background-image:  url(/assets/img/arrow-fuxion-delgado-right1.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -108,7 +108,7 @@
 }
 
 .img01Empresa {
-    background-image: url('/assets/FUXION.webp');
+    background-image:  url(/assets/img/FUXION.webp);
     width: 11.8rem;
     height: 3.7rem;
     margin-right: 5rem;
@@ -146,11 +146,11 @@
 }
 
 .img2Empresa {
-    background-image: url('../assets/la-empresa-imagen2.webp');
+    background-image:  url(/assets/img/la-empresa-imagen2.webp);
 }
 
 .img02Empresa {
-    background-image: url('../assets/salud-verdadera.webp');
+    background-image:  url(/assets/img/salud-verdadera.webp);
 }
 
 
@@ -165,7 +165,7 @@
 }
 
 .imgLeft {
-    background-image: url('/assets/arrow-fuxion-delgado.webp');
+    background-image:  url(/assets/img/arrow-fuxion-delgado.webp);
     background-repeat: no-repeat;
     background-size: contain;
     width: 19.1rem;
@@ -173,7 +173,7 @@
 }
 
 .imgRight {
-    background-image: url('/assets/arrow-fuxion-delgado-right.webp');
+    background-image:  url(/assets/img/arrow-fuxion-delgado-right.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom;
@@ -184,7 +184,7 @@
 /* S E C T I O N 3  S E C T I O N 3 S E C T I O N 3  S E C T I O N 3*/
 
 .img3Empresa {
-    background-image: url('../assets/la-empresa-imagen3.webp');
+    background-image:  url(/assets/img/la-empresa-imagen3.webp);
 }
 
 .title03Empresa {
@@ -202,7 +202,7 @@
 /* S E C T I O N 4 S E C T I O N 4 S E C T I O N 4 */
 
 .img4Empresa {
-    background-image: url('../assets/la-empresa-imagen4.webp');
+    background-image:  url(/assets/img/la-empresa-imagen4.webp);
 }
 
 .img4Empresa h1 {
@@ -210,40 +210,40 @@
 }
 
 .img04Empresa {
-    background-image: url('../assets/imagenX.webp');
+    background-image:  url(/assets/img/imagenX.webp);
 }
 
 
 /* S E C T I O N 5  S E C T I O N 5  S E C T I O N 5 */
 
 .img5Empresa {
-    background-image: url('../assets/la-empresa-imagen5.webp');
+    background-image:  url(/assets/img/la-empresa-imagen5.webp);
 }
 
 .img05Empresa {
-    background-image: url('../assets/red.webp');
+    background-image:  url(/assets/img/red.webp);
 }
 
 
 /* S E C T I O N 6  S E C T I O N 6  S E C T I O N 6 */
 
 .img6Empresa {
-    background-image: url('../assets/la-empresa-imagen6.webp');
+    background-image:  url(/assets/img/la-empresa-imagen6.webp);
 }
 
 .img06Empresa {
-    background-image: url('../assets/mundo.webp');
+    background-image:  url(/assets/img/mundo.webp);
 }
 
 
 /* S E C T I O N 7  S E C T I O N 7   S E C T I O N 7 */
 
 .img7Empresa {
-    background-image: url('../assets/la-empresa-imagen7.webp');
+    background-image:  url(/assets/img/la-empresa-imagen7.webp);
 }
 
 .img07Empresa {
-    background-image: url('../assets/manos.webp');
+    background-image:  url(/assets/img/manos.webp);
 }
 
 
