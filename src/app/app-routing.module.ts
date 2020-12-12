@@ -5,11 +5,16 @@ import { HomeComponent } from './pages/home/home.component';
 import { PoliticasComponent } from './pages/politicas/politicas.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
 import { StoreComponent } from './pages/store/store.component';
+import { VitaComponent } from './pages/vita/vita.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
+  },
+  {
+    path: 'vita',
+    component: VitaComponent,
   },
   {
     path: 'empresa',

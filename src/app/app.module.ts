@@ -22,6 +22,7 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from 'src/environments/environment';
 
 import { AnonymousInitializerFactory, AnonymousInitializer } from './providers/anonymous.initializer';
+import { VitaComponent } from './pages/vita/vita.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { AnonymousInitializerFactory, AnonymousInitializer } from './providers/a
     TerminosComponent,
     FooterComponent,
     HeaderComponent,
+    VitaComponent,
   ],
   imports: [
     BrowserModule,
