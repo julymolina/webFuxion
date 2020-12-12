@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { StoreComponent } from '../store/store.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { PersonalInfoComponent } from '../store/personal-info/personal-info.component';
 import { DeliveryAddressComponent } from '../store/delivery-address/delivery-address.component';
 import { BeFuxionComponent } from '../store/be-fuxion/be-fuxion.component';
@@ -65,7 +65,7 @@ const routes: Routes = [
     StoreHeaderComponent,
     ResumeOrderComponent,
   ],
-  imports: [CommonModule, FormsModule, RouterModule.forRoot(routes)],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule.forRoot(routes)],
   exports: [RouterModule],
 })
 export class StoreModule {}

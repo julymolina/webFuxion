@@ -1,45 +1,73 @@
+<!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
 
-    <!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
-
-  <app-store-header></app-store-header>
+<app-store-header></app-store-header>
 
 <!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
 
 <div class="patrocinador2">
-    <p>DIRECCIÓN DE ENVÍO</p>
-    <p>RESUMEN DEL PEDIDO</p>
+  <p>DIRECCIÓN DE ENVÍO</p>
+  <p>RESUMEN DEL PEDIDO</p>
 </div>
- <main class="mainStore">
-    <section class="section1MainStore">
-        <section class="sect1-3MainStore">
+<main class="mainStore">
+  <section class="section1MainStore">
+    <section class="sect1-3MainStore">
+      <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
 
-            <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
+      <form [formGroup]="form" class="formDirection" (ngSubmit)="complete()">
+        <label for="direction"
+          >Dirección <span style="color: rgb(206, 4, 4)">*</span></label
+        >
+        <br />
+        <input
+          formControlName="address"
+          required
+          class="inputDir"
+          id="direction"
+          name="direction"
+          type="text"
+          placeholder="Dirección"
+        />
+        <br />
 
-        <form class="formDirection" action="">
-            <label for="direction">Dirección <span  style="color: rgb(206, 4, 4);" >*</span></label> <br/>
-            <input required class="inputDir" id="direction" name="direction" type="text" placeholder="Dirección"> <br/>
+        <label for="city"> Ciudad / Estado / Código Postal</label> <br />
+        <input
+          formControlName="city"
+          required
+          class="inputCity"
+          id="city"
+          name="city"
+          type="text"
+          placeholder="Ciudad"
+        />
 
-            <label for="city"> Ciudad / Estado / Código Postal</label> <br/>
-            <input required class="inputCity" id="city" name="city" type="text" placeholder="Ciudad">
-
-            <select class="selectCountry" name="country">
-                <!-- <option value=""></option> -->
-                <option value="">USA</option>
-                <!-- <option value="">PERÚ</option>
+        <select formControlName="country" class="selectCountry" name="country">
+          <!-- <option value=""></option> -->
+          <option value="USA">USA</option>
+          <!-- <option value="">PERÚ</option>
                 <option value="">CHILE</option> -->
-            </select>
+        </select>
 
-            <input required class="inputCP" type="text" name="Postal" placeholder="Código Postal" >
+        <input
+          formControlName="zip"
+          required
+          class="inputCP"
+          type="text"
+          name="Postal"
+          placeholder="Código Postal"
+        />
 
-            <button class="buttonVerificate"> Verificar Dirección </button>
-        </form>
-        </section>
-
-
-        <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
-
-        <app-resume-order></app-resume-order>
+        <!-- <button class="buttonVerificate">Verificar Dirección</button> -->
+        <button type="submit" class="buttonContinuar3" [disabled]="form.invalid">
+          Completar
+        </button>
+      </form>
     </section>
-    <!-- <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a> -->
-    <a (click)="complete()"><button class="buttonContinuar3">Continuar</button></a>
+
+    <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
+
+    <app-resume-order></app-resume-order>
+  </section>
+  <!-- <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a> -->
+
+    >
 </main>

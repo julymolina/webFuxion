@@ -11,22 +11,36 @@
 <main class="mainStore">
   <section class="section1MainStore">
     <section class="sect1-2MainStore">
-      <form class="formPerson" (ngSubmit)="proccessInfo()">
-        <input type="text" required name="Apellido" placeholder="Apellido" />
+      <form [formGroup]="form" class="formPerson" (ngSubmit)="proccessInfo()">
         <input
           type="text"
+          formControlName="lastName"
+          required
+          name="Apellido"
+          placeholder="Apellido"
+        />
+        <input
+          type="tel"
+          formControlName="phone"
           required
           name="Teléfono"
           placeholder="Telefono móvil"
         />
-        <input type="text" required name="Nombre" placeholder="Nombre" />
         <input
           type="text"
+          formControlName="name"
+          required
+          name="Nombre"
+          placeholder="Nombre"
+        />
+        <input
+          type="text"
+          formControlName="email"
           required
           name="Correo electrónico"
           placeholder="Correo electronico"
         />
-        <button class="sectButton" type="submit">Seguir</button>
+        <button class="sectButton" type="submit" [disabled]="form.invalid">Seguir</button>
       </form>
     </section>
 
