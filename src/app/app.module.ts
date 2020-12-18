@@ -23,6 +23,7 @@ import { environment } from 'src/environments/environment';
 
 import { AnonymousInitializerFactory, AnonymousInitializer } from './providers/anonymous.initializer';
 import { VitaComponent } from './pages/vita/vita.component';
+import { PrunexComponent } from './pages/prunex/prunex.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { VitaComponent } from './pages/vita/vita.component';
     FooterComponent,
     HeaderComponent,
     VitaComponent,
+    PrunexComponent,
   ],
   imports: [
     BrowserModule,

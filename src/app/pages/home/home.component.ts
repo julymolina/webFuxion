@@ -1,5 +1,6 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { CartService } from 'src/app/cart.service';
 
 @Component({
   selector: 'app-home',
@@ -7,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit, AfterViewInit {
-  constructor(private route: ActivatedRoute) {}
+  constructor(private route: ActivatedRoute, private cart: CartService) {}
 
   private fragment: string;
 
@@ -23,5 +24,9 @@ export class HomeComponent implements OnInit, AfterViewInit {
     try {
       document.querySelector('#' + this.fragment).scrollIntoView();
     } catch (e) {}
+  }
+
+  addVeramasToCart() {
+    this.cart.addVeramas();
   }
 }

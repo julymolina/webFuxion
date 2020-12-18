@@ -6,6 +6,7 @@ import { PoliticasComponent } from './pages/politicas/politicas.component';
 import { TerminosComponent } from './pages/terminos/terminos.component';
 import { StoreComponent } from './pages/store/store.component';
 import { VitaComponent } from './pages/vita/vita.component';
+import { PrunexComponent } from './pages/prunex/prunex.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,10 @@ const routes: Routes = [
   {
     path: 'vita',
     component: VitaComponent,
+  },
+  {
+    path: 'prunex',
+    component: PrunexComponent,
   },
   {
     path: 'empresa',

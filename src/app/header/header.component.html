@@ -12,15 +12,15 @@
       <div class="containMenuHeader">
           <ul class="menuHeader">
             <li>
-              <a routerLink="/" fragment="seccion1">Inicio</a>
+              <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion1">Inicio</a>
           </li>
 
           <li>
-            <a routerLink="/" fragment="seccion4">Beneficios</a>
+            <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion4">Beneficios</a>
           </li>
 
           <li>
-              <a routerLink="/" fragment="seccion5">Ciencia</a>
+              <a [routerLink]="isPrunex?'/prunex':'/'"  fragment="seccion5">Ciencia</a>
           </li>
 
           <li>

@@ -20,6 +20,11 @@ const routes: Routes = [
     component: StoreComponent,
     // resolve: { paypal: PaypalResolver },
   },
+  {
+    path: 'store/prunex',
+    component: StoreComponent,
+    // resolve: { paypal: PaypalResolver },
+  },
 
   {
     path: 'store/personal-info',

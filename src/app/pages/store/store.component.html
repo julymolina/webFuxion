@@ -13,11 +13,11 @@
   <section class="section1MainStore">
     <section class="sect1MainStore">
       <div class="div1MainStore">
-        <img src="assets/img/productoMin.jpg" alt="" />
+        <img [src]="currentItem.img" alt="" />
         <div class="div01MainStore">
-          <h4>Vera +</h4>
+          <h4>{{currentItem.name}}</h4>
           <strong>Precio</strong>
-          <p>SKU 145156</p>
+          <p>SKU {{currentItem.sku}}</p>
         </div>
       </div>
 

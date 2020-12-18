@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { CartService } from '../../cart.service';
 
 @Component({
@@ -7,7 +8,7 @@ import { CartService } from '../../cart.service';
   styleUrls: ['./store.component.scss'],
 })
 export class StoreComponent implements OnInit {
-  constructor(private cart: CartService) {}
+  constructor(private route: ActivatedRoute, private cart: CartService) {}
 
   ngOnInit(): void {}
 
@@ -20,7 +21,8 @@ export class StoreComponent implements OnInit {
   }
 
   disminuir() {
-    this.currentItem.quantity--;
+    this.currentItem.quantity = Math.max(1,this.currentItem.quantity-1);
+
   }
 
   getTotal() {
