@@ -10,11 +10,6 @@ input#abrir-cerrar {
     top: -9999px;
 }
 
-body,
-html {
-    overflow-x: hidden;
-}
-
 html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;

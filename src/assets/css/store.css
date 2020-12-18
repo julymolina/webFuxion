@@ -13,10 +13,6 @@
     --colorBackInput:  #eeeeee;
 }
 
-body,
-html {
-    overflow-x: hidden;
-}
 
 html {
     font-size: 62.5%;
