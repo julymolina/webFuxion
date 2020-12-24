@@ -5,17 +5,16 @@
 <!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
 
 <div class="patrocinador2">
-  <p>DIRECCIÓN DE ENVÍO</p>
-  <p>RESUMEN DEL PEDIDO</p>
+    <p>DIRECCIÓN DE ENVÍO</p>
+    <p>RESUMEN DEL PEDIDO</p>
 </div>
 <main class="mainStore">
-  <section class="section1MainStore">
-    <section class="sect1-3MainStore">
-      <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
+    <section class="section1MainStore">
+        <section class="sect1-3MainStore">
+            <!-- F O R M U L A R I O    F O R M U L A R I O  F O R M U L A R I O  F O R M U L A R I O  -->
 
-      <form [formGroup]="form" class="formDirection" (ngSubmit)="complete()">
-        <label for="direction"
-          >Dirección <span style="color: rgb(206, 4, 4)">*</span></label
+            <form [formGroup]="form" class="formDirection" (ngSubmit)="complete()">
+                <label for="direction">Dirección <span style="color: rgb(206, 4, 4)">*</span></label
         >
         <br />
         <input
@@ -30,44 +29,29 @@
         <br />
 
         <label for="city"> Ciudad / Estado / Código Postal</label> <br />
-        <input
-          formControlName="city"
-          required
-          class="inputCity"
-          id="city"
-          name="city"
-          type="text"
-          placeholder="Ciudad"
-        />
+                <input formControlName="city" required class="inputCity" id="city" name="city" type="text" placeholder="Ciudad" />
 
-        <select formControlName="country" class="selectCountry" name="country">
+                <select formControlName="country" class="selectCountry" name="country">
           <!-- <option value=""></option> -->
           <option value="USA">USA</option>
           <!-- <option value="">PERÚ</option>
                 <option value="">CHILE</option> -->
         </select>
 
-        <input
-          formControlName="zip"
-          required
-          class="inputCP"
-          type="text"
-          name="Postal"
-          placeholder="Código Postal"
-        />
+                <input formControlName="zip" required class="inputCP" type="text" name="Postal" placeholder="Código Postal" />
 
-        <!-- <button class="buttonVerificate">Verificar Dirección</button> -->
-        <button type="submit" class="buttonContinuar3" [disabled]="form.invalid">
+                <!-- <button class="buttonVerificate">Verificar Dirección</button> -->
+                <button type="submit" class="buttonContinuar3" [disabled]="form.invalid">
           Completar
         </button>
-      </form>
+            </form>
+        </section>
+
+        <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
+
+        <app-resume-order></app-resume-order>
     </section>
-
-    <!-- SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  SEGUNDO CUADRO  -->
-
-    <app-resume-order></app-resume-order>
-  </section>
-  <!-- <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a> -->
+    <!-- <a routerLink="/store/personal-info"><button class="buttonContinuar3-1">Atras</button></a> -->
 
     >
 </main>

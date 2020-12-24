@@ -1,0 +1,10 @@
+    $smartphone: 480px;
+    $tablets: 728px;
+    $desktop: 1024px;
+    @media screen and (max-width: $smartphone) {
+        .totalParcial2 {
+            width: 39rem;
+            margin-left: 0;
+            margin-bottom: 3rem;
+        }
+    }

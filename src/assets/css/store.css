@@ -7,29 +7,47 @@
 }
 
 :root {
-    --colorBoxShadow: rgba(128,98,96,.16);
+    --colorBoxShadow: rgba(128, 98, 96, .16);
     --colorBlueFuxion: #0086d6;
-    --colorBlueHover:  #0094de;
-    --colorBackInput:  #eeeeee;
+    --colorBlueHover: #0094de;
+    --colorBackInput: #eeeeee;
 }
-
 
 html {
     font-size: 62.5%;
 }
 
+
 /* BORDER RADIUS AND BOX SHADOW  */
 
-.countryHeader, .cartHeader, .langHeader, .sect1MainStore, .totalParcial, .sect1-2MainStore, .totalParcial2, .sect1-3MainStore, .formLogin, .sect1-5MainStore, .sect1-6MainStore div {
+.countryHeader,
+.cartHeader,
+.langHeader,
+.sect1MainStore,
+.totalParcial,
+.sect1-2MainStore,
+.totalParcial2,
+.sect1-3MainStore,
+.formLogin,
+.sect1-5MainStore,
+.sect1-6MainStore div {
     border-radius: 1rem;
     box-shadow: 0 0.6rem 1rem 0 var(--colorBoxShadow);
 }
 
-.div1MainStore, .calculoMainStore, .section1MainStore, .sect1MainStore, .div2MainStore, .patrocinador, .patrocinador2, .patrocinador6{
+.div1MainStore,
+.calculoMainStore,
+.section1MainStore,
+.sect1MainStore,
+.div2MainStore,
+.patrocinador,
+.patrocinador2,
+.patrocinador6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 /* BOTONES BOTONES BOTONES BOTONES  BOTONES  BOTONES  BOTONES  BOTONES */
 
@@ -45,13 +63,15 @@ button:hover {
     background-color: var(--colorBlueHover);
 }
 
-input, .formDirection select {
+input,
+.formDirection select {
     border: 0.1rem solid var(--colorBoxShadow);
     outline: none;
     padding-left: 1rem;
     border-radius: 0.5rem;
     cursor: pointer;
 }
+
 
 /* EMPIEZA HEADER EMPIEZA HEADER EMPIEZA HEADER  */
 
@@ -65,16 +85,17 @@ input, .formDirection select {
 }
 
 .containHeaderStore {
-    height: 4.3rem;
+    height: 5rem;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    margin-top: 0.7rem;
+    /* margin-top: 0.7rem; */
 }
 
 .containLogoStore {
     width: 14rem;
-    height: 5.2rem;
+    height: 6.5rem;
+    margin-top: -1rem;
 }
 
 .logoStore {
@@ -88,10 +109,13 @@ input, .formDirection select {
 .section2Header {
     width: 27rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    /* LE CAMBIE SPACE BETWEEN POR CENTER  PARA DESHACER EL ESPACIO QUE TENIAN*/
 }
 
-.countryHeader, .cartHeader, .langHeader {
+.countryHeader,
+.cartHeader,
+.langHeader {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +123,8 @@ input, .formDirection select {
 
 .countryHeader {
     width: 13.4rem;
+    margin-right: 1rem;
+    /*LE APLIQUÉ MARGIN RIGHT */
 }
 
 .countryHeader img {
@@ -116,11 +142,13 @@ input, .formDirection select {
     height: 2.8rem;
 }
 
+
 /* MENU LENGUAJE MENU LENGUAJE MENU LENGUAJE MENU LENGUAJE  */
 
 .langHeader {
     width: 5rem;
 }
+
 .langHeader ul {
     list-style: none;
 }
@@ -141,14 +169,12 @@ input, .formDirection select {
 }
 
 
-
 /* AQUI EMPIEZA EL MAIN  -AQUI EMPIEZA EL MAIN -AQUI EMPIEZA EL MAIN -AQUI EMPIEZA EL MAIN  */
 
 .patrocinador {
     width: 50%;
     margin: 3rem 15rem 0;
 }
-
 
 .div1MainStore img {
     width: 12rem;
@@ -210,7 +236,6 @@ input, .formDirection select {
     cursor: pointer;
 }
 
-
 .totalParcial {
     display: flex;
     flex-direction: column;
@@ -244,7 +269,6 @@ input, .formDirection select {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     padding: 2rem 1rem 0;
-
 }
 
 .formPerson input {
@@ -258,7 +282,9 @@ input, .formDirection select {
     margin: 3rem 15rem 0;
 }
 
-.patrocinador2 p, .patrocinador6 p, .patrocinador {
+.patrocinador2 p,
+.patrocinador6 p,
+.patrocinador {
     color: var(--colorBlueFuxion);
 }
 
@@ -295,9 +321,7 @@ input, .formDirection select {
 }
 
 
-
 /* PAGINA 3  PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3 PAGINA 3  */
-
 
 .sect1-3MainStore {
     width: 73.2rem;
@@ -321,9 +345,11 @@ input, .formDirection select {
 .inputDir {
     width: 65rem;
 }
+
 .inputCity {
- width: 22.3rem;
+    width: 22.3rem;
 }
+
 .inputCP {
     width: 17rem;
     margin: 0;
@@ -379,13 +405,16 @@ input, .formDirection select {
     padding: 1rem;
 }
 
-.containEmail, .medidor, .containCP {
+.containEmail,
+.medidor,
+.containCP {
     background-color: var(--colorBackInput);
     border-radius: 0.5rem;
     border: 0.1rem solid var(--colorBoxShadow);
 }
 
-.password, .password1 {
+.password,
+.password1 {
     height: 3.1rem;
     width: 34rem;
     margin-top: 1.5rem;
@@ -404,6 +433,7 @@ input, .formDirection select {
     padding: 1rem;
 }
 
+
 /* PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5  PAGINA 5   */
 
 .sect1-5MainStore {
@@ -420,12 +450,16 @@ input, .formDirection select {
     padding-left: 1.3rem;
 }
 
-.nameCard, .numberCard, .dateMes, .dateAño, .containCvv {
+.nameCard,
+.numberCard,
+.dateMes,
+.dateAño,
+.containCvv {
     height: 3.1rem;
     margin-top: 1.5rem;
 }
 
-.nameCard{
+.nameCard {
     width: 32.5rem;
     margin-bottom: 1.5rem;
 }
@@ -435,9 +469,10 @@ input, .formDirection select {
 }
 
 .dateMes {
-width: 8rem;
-margin-right: 2rem;
+    width: 8rem;
+    margin-right: 2rem;
 }
+
 .dateAño {
     width: 8rem;
     margin-right: 15rem;
@@ -473,7 +508,6 @@ margin-right: 2rem;
     height: 3.7rem;
     margin-top: 1rem;
     margin-left: 1rem;
-
 }
 
 .buttonContinuar6 {

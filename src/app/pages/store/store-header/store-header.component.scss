@@ -1,0 +1,17 @@
+// Variables 
+$smartphone: 480px;
+$tablets: 728px;
+$desktop: 1024;
+@media screen and (max-width: $smartphone) {
+    .countryHeader {
+        display: none;
+    }
+    .cartHeader {
+        width: 4.8rem;
+        margin-right: -160px;
+        background-image: url(/src/assets/img/menu.png);
+    }
+    .cartHeader img {
+        display: none;
+    }
+}

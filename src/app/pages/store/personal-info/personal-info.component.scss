@@ -1,5 +1,30 @@
-.sectButton{
-  &:disabled{
-    opacity: 0.75;
-  }
+$smartphone: 480px;
+$tablets: 728px;
+$desktop: 1024px;
+.sectButton {
+    &:disabled {
+        opacity: 0.75;
+    }
+}
+
+@media screen and (max-width: $smartphone) {
+    .patrocinador2 {
+        margin-left: 5rem;
+    }
+    .section1MainStore {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .sect1-2MainStore {
+        width: 38rem;
+        height: auto;
+    }
+    .formPerson {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .formPerson input {
+        width: 100%;
+    }
 }

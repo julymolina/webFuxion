@@ -5,7 +5,7 @@
 }
 
 input#abrir-cerrar {
-    visibility:hidden;
+    visibility: hidden;
     position: absolute;
     top: -9999px;
 }
@@ -22,7 +22,7 @@ html {
 }
 
 header {
-    border-bottom: 0.5rem solid #c7c7c7;
+    box-shadow: 0 0.2rem 1rem 0 #c1c1c1;
 }
 
 .containerHeader {
