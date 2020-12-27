@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "epigenetica"
+    }
+  },
+  "defaultProject": "epigenetica",
+  "cli": {
+    "analytics": false
+  }
 }

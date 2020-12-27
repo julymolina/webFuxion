@@ -16,7 +16,7 @@ $desktop: 1024px;
         justify-content: space-around;
     }
     .sect1-2MainStore {
-        width: 38rem;
+        width: 100%;
         height: auto;
     }
     .formPerson {
@@ -26,5 +26,8 @@ $desktop: 1024px;
     }
     .formPerson input {
         width: 100%;
+    }
+    .sectButton {
+        margin-left: 0;
     }
 }

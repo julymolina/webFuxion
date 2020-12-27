@@ -6,50 +6,46 @@
 <!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
 
 <section class="patrocinador">
-  <p>CARRITO DE COMPRAS - POWERLINK</p>
-  <p>PATROCINADOR: LUCA</p>
+    <p>CARRITO DE COMPRAS - POWERLINK</p>
+    <p>PATROCINADOR: LUCA</p>
 </section>
 <main class="mainStore">
-  <section class="section1MainStore">
-    <section class="sect1MainStore">
-      <div class="div1MainStore">
-        <img [src]="currentItem.img" alt="" />
-        <div class="div01MainStore">
-          <h4>{{currentItem.name}}</h4>
-          <strong>Precio</strong>
-          <p>SKU {{currentItem.sku}}</p>
-        </div>
-      </div>
+    <section class="section1MainStore">
+        <section class="sect1MainStore">
+            <div class="div1MainStore">
+                <img [src]="currentItem.img" alt="" />
+                <div class="div01MainStore">
+                    <h4>{{currentItem.name}}</h4>
+                    <strong>Precio</strong>
+                    <p>SKU {{currentItem.sku}}</p>
+                </div>
+            </div>
 
-      <div class="div2MainStore">
-        <p>$ {{ currentItem.price | number: "1.2" }}</p>
-        <div class="calculoMainStore">
-          <button id="disminuir" (click)="disminuir()">-</button>
+            <div class="div2MainStore">
+                <p>$ {{ currentItem.price | number: "1.2" }}</p>
+                <div class="calculoMainStore">
+                    <button id="disminuir" (click)="disminuir()">-</button>
 
-          <div class="quantityMainStore">
-            <p>Cantidad</p>
-            <input
-              type="text"
-              [(ngModel)]="currentItem.quantity"
-              id="cantidad"
-            />
-          </div>
+                    <div class="quantityMainStore">
+                        <p>Cantidad</p>
+                        <input type="text" [(ngModel)]="currentItem.quantity" id="cantidad" />
+                    </div>
 
-          <button id="aumentar" (click)="aumentar()">+</button>
-        </div>
+                    <button id="aumentar" (click)="aumentar()">+</button>
+                </div>
 
-        <div class="totalMainStore">
-          <p>$ {{ getTotal() | number: "1.2" }}</p>
-        </div>
-      </div>
+                <div class="totalMainStore">
+                    <p>$ {{ getTotal() | number: "1.2" }}</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="totalParcial">
+            <p style="width: 80%; text-align: left">
+                SubTotal:
+                <span style="float: right">$ {{ getTotal() | number: "1.2" }}</span>
+            </p>
+            <a routerLink="/store/personal-info"><button>¡Comprar Ahora!</button></a>
+        </section>
     </section>
-
-    <section class="totalParcial">
-      <p style="width: 80%; text-align: left">
-        SubTotal:
-        <span style="float: right">$ {{ getTotal() | number: "1.2" }}</span>
-      </p>
-      <a routerLink="/store/personal-info"><button>¡Comprar Ahora!</button></a>
-    </section>
-  </section>
 </main>

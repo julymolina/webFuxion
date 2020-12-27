@@ -1,0 +1,42 @@
+$smartphone: 480px;
+$tablets: 728px;
+$desktop: 1024px;
+@media screen and (max-width: $smartphone) {
+    .patrocinador2 {
+        margin-left: 5rem;
+    }
+    .patrocinador2 p {
+        margin-right: 2rem;
+    }
+    .section1MainStore {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .sect1-4MainStore {
+        width: 100%;
+        height: auto;
+        margin: 4rem auto;
+    }
+    .formLogin {
+        width: auto;
+        height: auto;
+        padding: 1rem 1rem 1rem;
+        margin-top: 1rem;
+    }
+    .formLogin label {
+        width: auto;
+    }
+    .formLogin input {
+        width: 100%;
+    }
+    .containEmail {
+        width: auto;
+    }
+    .medidor {
+        width: auto;
+    }
+    .containCP {
+        width: auto;
+        margin-top: 0;
+    }
+}
