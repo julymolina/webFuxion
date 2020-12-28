@@ -1,7 +1,8 @@
 $smartphone: 480px;
 $tablets: 728px;
 $desktop: 1024px;
-@media screen and (max-width: $smartphone) {
+$desktop2: 1294px;
+@media screen and (max-width: $tablets) {
     .section1MainStore {
         flex-direction: column;
         justify-content: space-around;
@@ -9,7 +10,7 @@ $desktop: 1024px;
     .sect1MainStore {
         flex-direction: column;
         width: 100%;
-        height: 30rem;
+        height: 25rem;
         padding: 1.5rem;
     }
     .div2MainStore {
@@ -35,5 +36,32 @@ $desktop: 1024px;
     }
     .totalParcial button {
         width: 21rem;
+    }
+}
+
+@media screen and (max-width: $desktop) and (min-width: $tablets) {
+    .section1MainStore {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .sect1MainStore {
+        width: 100%;
+        height: auto;
+        padding: 1.5rem;
+    }
+    .totalParcial {
+        width: 100%;
+    }
+    .totalParcial button {
+        width: 21rem;
+    }
+}
+
+@media screen and (max-width: $desktop2) and (min-width: $desktop) {
+    .sect1MainStore {
+        margin-right: 3rem;
+    }
+    .totalParcial button {
+        width: 18rem;
     }
 }

@@ -1,33 +1,61 @@
-$smartphone: 480px;
-$tablets: 728px;
-$desktop: 1024px;
-.sectButton {
-    &:disabled {
-        opacity: 0.75;
-    }
-}
-
-@media screen and (max-width: $smartphone) {
-    .patrocinador2 {
-        margin-left: 5rem;
-    }
-    .section1MainStore {
-        flex-direction: column;
-        justify-content: space-around;
-    }
-    .sect1-2MainStore {
-        width: 100%;
-        height: auto;
-    }
-    .formPerson {
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-    }
-    .formPerson input {
-        width: 100%;
-    }
-    .sectButton {
-        margin-left: 0;
-    }
-}
+            $smartphone: 480px;
+            $tablets: 728px;
+            $desktop: 1024px;
+            $desktop2: 1294px;
+            .sectButton {
+                &:disabled {
+                    opacity: 0.75;
+                }
+            }
+            
+            @media screen and (max-width: $smartphone) {
+                .patrocinador2 {
+                    margin-left: 5rem;
+                }
+                .section1MainStore {
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                .sect1-2MainStore {
+                    width: 100%;
+                    height: auto;
+                }
+                .formPerson {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 2rem;
+                }
+                .formPerson input {
+                    width: 100%;
+                }
+                .sectButton {
+                    margin-left: 0;
+                }
+            }
+            
+            @media screen and (max-width: $tablets) and (min-width: $smartphone) {
+                .patrocinador2 {
+                    margin-left: 5rem;
+                }
+                .section1MainStore {
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                .sect1-2MainStore {
+                    width: 70%;
+                    height: 31rem;
+                }
+                .formPerson {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .formPerson input {
+                    width: 100%;
+                }
+                .sectButton {
+                    margin-left: 0;
+                }
+            }
+            
+            // @media screen and (max-width: $desktop) and (min-width: $tablets)
+            // @media screen and (max-width: $desktop2) and (min-width: $desktop)

@@ -7,11 +7,22 @@ $desktop: 1024;
         display: none;
     }
     .cartHeader {
-        width: 4.8rem;
-        margin-right: -160px;
-        background-image: url(/src/assets/img/menu.png);
+        width: 4rem;
+        height: 4rem;
+        margin-top: 0.5rem;
+        margin-right: -150px;
     }
     .cartHeader img {
-        display: none;
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+
+@media screen and (max-width: $tablets) and (min-width: $smartphone) {
+    .section2Header {
+        width: auto;
+    }
+    .containHeaderStore {
+        width: 90%;
     }
 }

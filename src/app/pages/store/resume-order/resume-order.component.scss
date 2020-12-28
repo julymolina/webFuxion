@@ -1,18 +1,38 @@
-    $smartphone: 480px;
-    $tablets: 728px;
-    $desktop: 1024px;
-    @media screen and (max-width: $smartphone) {
-        .totalParcial2 {
-            margin-left: 0;
-            margin-bottom: 1rem;
-            padding: 2rem;
-            height: auto;
-            width: 100%;
-        }
-        .resumenPedido {
-            width: 100%;
-        }
-        .totalSection2 {
-            width: auto;
-        }
+$smartphone: 480px;
+$tablets: 728px;
+$desktop: 1024px;
+$desktop2: 1294px;
+@media screen and (max-width: $smartphone) {
+    .totalParcial2 {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        height: auto;
+        width: 100%;
     }
+    .resumenPedido {
+        width: 100%;
+    }
+    .totalSection2 {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: $desktop) and (min-width: $tablets) {
+    .totalParcial {
+        width: 100%;
+    }
+    .totalParcial button {
+        width: 21rem;
+    }
+    .resumenPedido {
+        width: 31.9rem;
+    }
+}
+
+// @media screen and (max-width: $desktop) and (min-width: $tablets)
+@media screen and (max-width: $desktop2) and (min-width: $desktop) {
+    .totalParcial button {
+        width: 18rem;
+    }
+}

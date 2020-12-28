@@ -54,6 +54,7 @@ header {
     justify-content: space-between;
     font-size: 1.7rem;
     color: black;
+    margin: 2.5rem;
 }
 
 .menuHeader a {
