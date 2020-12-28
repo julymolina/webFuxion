@@ -10,7 +10,7 @@ $desktop: 1024px;
         flex-direction: column;
         width: 100%;
         height: 30rem;
-        padding: 2rem;
+        padding: 1.5rem;
     }
     .div2MainStore {
         margin-right: 0;
@@ -26,5 +26,14 @@ $desktop: 1024px;
     }
     .patrocinador p {
         margin-right: 4rem;
+    }
+    .calculoMainStore {
+        margin: 0 1rem 0;
+    }
+    .totalParcial {
+        width: 100%;
+    }
+    .totalParcial button {
+        width: 21rem;
     }
 }

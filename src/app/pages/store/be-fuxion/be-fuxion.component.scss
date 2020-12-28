@@ -20,13 +20,13 @@ $desktop: 1024px;
     .formLogin {
         width: auto;
         height: auto;
-        padding: 1rem 1rem 1rem;
-        margin-top: 1rem;
+        padding: 2rem 2rem 2rem;
     }
-    .formLogin label {
-        width: auto;
+    .login4 {
+        width: 10%;
     }
-    .formLogin input {
+    .password,
+    .password1 {
         width: 100%;
     }
     .containEmail {
@@ -38,5 +38,21 @@ $desktop: 1024px;
     .containCP {
         width: auto;
         margin-top: 0;
+    }
+    .totalParcial2 {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        height: auto;
+    }
+    .buttonContinuar3-1 {
+        margin-left: 2rem;
+        width: 10rem;
+        margin-bottom: 2rem;
+    }
+    .buttonContinuar3 {
+        margin-left: 4rem;
+        width: 10rem;
+        margin-bottom: 2rem;
     }
 }

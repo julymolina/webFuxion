@@ -1,0 +1,29 @@
+    $smartphone: 480px;
+    $tablets: 728px;
+    $desktop: 1024px;
+    @media screen and (max-width: $smartphone) {
+        .patrocinador6 {
+            margin-left: 5rem;
+        }
+        .patrocinador6 p {
+            margin-right: 2rem;
+        }
+        .section1MainStore {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .sect1-6MainStore {
+            width: 100%;
+            height: auto;
+            margin-top: 1rem;
+        }
+        .sect1-6MainStore div {
+            padding: 2rem;
+            width: auto;
+            height: auto;
+            text-align: center;
+        }
+        .buttonContinuar6 {
+            margin-left: 0.5rem;
+        }
+    }

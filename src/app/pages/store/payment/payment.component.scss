@@ -1,6 +1,28 @@
+$smartphone: 480px;
+$tablets: 728px;
+$desktop: 1024px;
 #paypal-container {
-  margin-top: 2rem;
-  max-width: 300px;
-  margin-left: auto;
-  margin-right: auto;
+    margin-top: 2rem;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: $smartphone) {
+    .patrocinador2 {
+        margin-left: 5rem;
+    }
+    .patrocinador2 p {
+        margin-right: 2rem;
+    }
+    .section1MainStore {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .sect1-5MainStore {
+        width: 100%;
+        height: auto;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
 }

@@ -491,6 +491,11 @@ input,
     height: 15rem;
 }
 
+.sect1-6MainStore .buttCheckout {
+    border: none;
+    box-shadow: 0 0 0 0;
+}
+
 .sect1-6MainStore div {
     padding-left: 3rem;
     padding-top: 2.5rem;

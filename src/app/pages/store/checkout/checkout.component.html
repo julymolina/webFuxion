@@ -1,7 +1,6 @@
+<!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
 
-    <!-- HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  HEADER  -->
-
-    <app-store-header></app-store-header>
+<app-store-header></app-store-header>
 
 <!-- MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN MAIN  -->
 
@@ -9,15 +8,17 @@
     <p>TÉRMINOS Y CONDICIONES</p>
     <p>RESUMEN DEL PEDIDO</p>
 </div>
- <main class="mainStore">
+<main class="mainStore">
     <section class="section1MainStore">
         <section class="sect1-6MainStore">
-        <div >
-        <input type="checkbox"> &nbsp;
-        <label for="">  Acepto los términos y condiciones del Acuerdo de Distribuidor y las Políticas y Procedimientos.</label>
-        </div>
-            <a routerLink="/store/payment"><button class="buttonContinuar6-1">Atras</button></a>
-            <a  (click)="pay()" ><button class="buttonContinuar6">Continuar</button></a>
+            <div>
+                <input type="checkbox"> &nbsp;
+                <label for="">  Acepto los términos y condiciones del Acuerdo de Distribuidor y las Políticas y Procedimientos.</label>
+            </div>
+            <div class="buttCheckout">
+                <a routerLink="/store/payment"><button class="buttonContinuar6-1">Atras</button></a>
+                <a (click)="pay()"><button class="buttonContinuar6">Continuar</button></a>
+            </div>
         </section>
 
 
