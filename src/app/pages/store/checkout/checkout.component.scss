@@ -1,7 +1,7 @@
     $smartphone: 480px;
-    $tablets: 728px;
-    $desktop: 1024px;
-    @media screen and (max-width: $smartphone) {
+    $tablets: 800px;
+    $desktop: 1159px;
+    @media screen and (max-width: $tablets) {
         .patrocinador6 {
             margin-left: 5rem;
         }
@@ -25,5 +25,22 @@
         }
         .buttonContinuar6 {
             margin-left: 0.5rem;
+        }
+    }
+    
+    @media screen and (min-width: $tablets) and (max-width: $desktop) {
+        .sect1-6MainStore {
+            width: 70%;
+            height: auto;
+            margin-top: 1rem;
+        }
+        .sect1-6MainStore div {
+            padding: 2rem;
+            width: auto;
+            height: auto;
+            text-align: center;
+        }
+        .buttonContinuar6 {
+            margin-left: 0.1rem;
         }
     }

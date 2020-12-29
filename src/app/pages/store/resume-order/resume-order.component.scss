@@ -19,20 +19,21 @@ $desktop2: 1294px;
 }
 
 @media screen and (max-width: $desktop) and (min-width: $tablets) {
-    .totalParcial {
-        width: 100%;
-    }
-    .totalParcial button {
-        width: 21rem;
-    }
     .resumenPedido {
         width: 31.9rem;
     }
-}
-
-// @media screen and (max-width: $desktop) and (min-width: $tablets)
-@media screen and (max-width: $desktop2) and (min-width: $desktop) {
-    .totalParcial button {
-        width: 18rem;
+    .totalParcial2 {
+        margin-left: 0;
+    }
+    .totalParcial2 {
+        margin-left: 0;
+        margin-bottom: 1rem;
+        padding: 2rem;
+        height: auto;
+        width: 100%;
     }
 }
+
+// @media screen and (max-width: $desktop2) and (min-width: $desktop) {
+// }
+// @media screen and (max-width: $desktop) and (min-width: $tablets)

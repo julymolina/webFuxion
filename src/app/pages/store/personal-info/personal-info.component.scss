@@ -57,5 +57,12 @@
                 }
             }
             
-            // @media screen and (max-width: $desktop) and (min-width: $tablets)
-            // @media screen and (max-width: $desktop2) and (min-width: $desktop)
+            @media screen and (max-width: $desktop) and (min-width: $tablets) {
+                .section1MainStore {
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+                .sect1-2MainStore {
+                    width: auto;
+                }
+            }

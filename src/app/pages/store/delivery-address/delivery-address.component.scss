@@ -1,13 +1,13 @@
 $smartphone: 480px;
-$tablets: 728px;
-$desktop: 1024px;
+$tablets: 780px;
+$desktop: 1095px;
 .buttonContinuar3 {
     &:disabled {
         opacity: 0.75;
     }
 }
 
-@media screen and (max-width: $smartphone) {
+@media screen and (max-width: $tablets) {
     .patrocinador2 {
         margin-left: 5rem;
     }
@@ -20,6 +20,37 @@ $desktop: 1024px;
     }
     .sect1-3MainStore {
         width: 100%;
+        height: auto;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    .formDirection {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    .formDirection input {
+        width: auto;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+        margin-right: 0;
+    }
+    .buttonContinuar3 {
+        margin-left: 0;
+        margin-top: 0.5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: $tablets) and (max-width: $desktop) {
+    .formDirection {
+        width: auto;
+        height: auto;
+    }
+    .sect1-3MainStore {
+        width: 60%;
         height: auto;
         margin: auto;
         margin-top: 2rem;

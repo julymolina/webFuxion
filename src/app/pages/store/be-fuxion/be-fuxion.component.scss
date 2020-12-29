@@ -1,58 +1,142 @@
-$smartphone: 480px;
-$tablets: 728px;
-$desktop: 1024px;
-@media screen and (max-width: $smartphone) {
-    .patrocinador2 {
-        margin-left: 5rem;
+    $smartphone: 480px;
+    $tablets: 927px;
+    $desktop: 1160px;
+    @media screen and (max-width: $smartphone) {
+        .patrocinador2 {
+            margin-left: 5rem;
+        }
+        .patrocinador2 p {
+            margin-right: 2rem;
+        }
+        .section1MainStore {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .sect1-4MainStore {
+            width: 100%;
+            height: auto;
+            margin: 4rem auto;
+        }
+        .formLogin {
+            width: auto;
+            height: auto;
+            padding: 2rem 2rem 2rem;
+        }
+        .login4 {
+            width: 10%;
+        }
+        .password,
+        .password1 {
+            width: 100%;
+        }
+        .containEmail {
+            width: auto;
+        }
+        .medidor {
+            width: auto;
+        }
+        .containCP {
+            width: auto;
+            margin-top: 0;
+        }
+        .buttonContinuar3-1 {
+            margin-left: 2rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+        .buttonContinuar3 {
+            margin-left: 4rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+        .buttBeFuxion {
+            text-align: center;
+        }
     }
-    .patrocinador2 p {
-        margin-right: 2rem;
+    
+    @media screen and (max-width: $tablets) and (min-width: $smartphone) {
+        .section1MainStore {
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .sect1-4MainStore {
+            width: 100%;
+            height: auto;
+            margin: 4rem auto;
+        }
+        .formLogin {
+            width: auto;
+            height: auto;
+            padding: 2rem 2rem 2rem;
+        }
+        .login4 {
+            width: 10%;
+        }
+        .containEmail {
+            width: 98%;
+        }
+        .password,
+        .password1 {
+            width: 48%;
+            margin-right: 0.5rem;
+        }
+        .containCP {
+            width: 98%;
+            margin-top: 0;
+        }
+        .buttonContinuar3-1 {
+            margin-left: 2rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+        .buttonContinuar3 {
+            margin-left: 4rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+        .buttBeFuxion {
+            text-align: center;
+        }
     }
-    .section1MainStore {
-        flex-direction: column;
-        justify-content: space-around;
+    
+    @media screen and (max-width: $desktop) and (min-width: $tablets) {
+        .sect1-4MainStore {
+            width: 70%;
+            height: auto;
+            margin: 4rem auto;
+        }
+        .formLogin {
+            width: auto;
+            height: auto;
+            padding: 2rem 2rem 2rem;
+        }
+        .containEmail {
+            width: auto;
+        }
+        .password,
+        .password1 {
+            width: 48%;
+            margin-right: 0.5rem;
+        }
+        .containCP {
+            width: auto;
+            margin-top: 0;
+        }
+        .mainStore {
+            width: 90%;
+        }
+        .buttonContinuar3-1 {
+            margin-left: 4rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+        .buttonContinuar3 {
+            margin-left: 25rem;
+            width: 10rem;
+            margin-bottom: 2rem;
+        }
+        .buttBeFuxion {
+            width: 80%;
+            display: flex;
+        }
     }
-    .sect1-4MainStore {
-        width: 100%;
-        height: auto;
-        margin: 4rem auto;
-    }
-    .formLogin {
-        width: auto;
-        height: auto;
-        padding: 2rem 2rem 2rem;
-    }
-    .login4 {
-        width: 10%;
-    }
-    .password,
-    .password1 {
-        width: 100%;
-    }
-    .containEmail {
-        width: auto;
-    }
-    .medidor {
-        width: auto;
-    }
-    .containCP {
-        width: auto;
-        margin-top: 0;
-    }
-    .totalParcial2 {
-        margin-left: 0;
-        margin-bottom: 1rem;
-        padding: 2rem;
-        height: auto;
-    }
-    .buttonContinuar3-1 {
-        margin-left: 2rem;
-        width: 10rem;
-        margin-bottom: 2rem;
-    }
-    .buttonContinuar3 {
-        margin-left: 4rem;
-        width: 10rem;
-        margin-bottom: 2rem;
-    }
-}
