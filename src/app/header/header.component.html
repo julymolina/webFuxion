@@ -1,32 +1,34 @@
 <header>
-  <nav class="containerHeader">
-      <div class="menuHamb">
-          <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value=""/>
-          <label for="abrir-cerrar" class="toggle-button">
-          <span class="cerrar" title="Cerrar"></span>
-          <span class="abrir" title="Abrir"></span>
-  </label>
-          </div>
-      <div class="logoHeader"></div>
+    <nav class="containerHeader">
+        <div class="menuHamb">
+            <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
 
-      <div class="containMenuHeader">
-          <ul class="menuHeader">
-            <li>
-              <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion1">Inicio</a>
-          </li>
+            <label for="abrir-cerrar" class="toggle-button">
+                 <span class="cerrar" title="Cerrar"></span>
+                 <span class="abrir" title="Abrir"></span>
+                </label>
+        </div>
 
-          <li>
-            <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion4">Beneficios</a>
-          </li>
+        <div class="logoHeader"></div>
 
-          <li>
-              <a [routerLink]="isPrunex?'/prunex':'/'"  fragment="seccion5">Ciencia</a>
-          </li>
+        <div class="containMenuHeader">
+            <ul class="menuHeader">
+                <li>
+                    <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion1">Inicio</a>
+                </li>
 
-          <li>
-            <a routerLink="/empresa">La Empresa</a>
-          </li>
-          </ul>
-      </div>
-  </nav>
+                <li>
+                    <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion4">Beneficios</a>
+                </li>
+
+                <li>
+                    <a [routerLink]="isPrunex?'/prunex':'/'" fragment="seccion5">Ciencia</a>
+                </li>
+
+                <li>
+                    <a routerLink="/empresa">La Empresa</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>
